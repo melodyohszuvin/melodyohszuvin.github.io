@@ -1,0 +1,26 @@
+body {
+    background-color: #FFF8CF;
+}
+
+h1,
+h2 {
+    color: #2A7C13;
+}
+
+p1 {
+    color: #76C457;
+}
+
+p {
+    color: #76C457;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p3 {
+    text-align: left;
+}
+
+img {
+    margin: 15px;
+}
