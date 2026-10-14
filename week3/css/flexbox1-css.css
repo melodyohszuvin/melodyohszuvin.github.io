@@ -1,0 +1,17 @@
+body {
+    background-color: #f6f5ef;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+    border: 10px
+}
+
+.work {
+    background-color: #ffffff;
+    border-radius: 10px
+}
