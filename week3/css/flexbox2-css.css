@@ -49,3 +49,9 @@ button {
     align-items: center;
     margin-top: 60px;
 }
+
+.company-logos img {
+    height: 30px;
+    width: auto;
+    filter: grayscale(100%);
+}
