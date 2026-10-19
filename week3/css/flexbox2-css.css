@@ -59,3 +59,31 @@ button {
     width: auto;
     filter: grayscale(100%);
 }
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    gap: 40px;
+}
+
+.hero-left {
+    max-width: 500px;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hero-right img {
+    width: 600px;
+    height: auto;
+}
