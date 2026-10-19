@@ -12,7 +12,7 @@ body {
 }
 
 .logos-row {
-    /*下面的logo *
+    /*下面的logo */
     display: flex;
     align-items: center;
     gap: 60px;
