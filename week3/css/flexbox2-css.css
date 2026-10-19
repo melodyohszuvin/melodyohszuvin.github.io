@@ -18,11 +18,24 @@ body {
     gap: 60px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    /*logo字体大小*/
+    font-size: 40px;
+    font-weight: 500;
+    color: #000000;
+}
+
 .nav-links {
     /*上中的setting */
     display: flex;
     gap: 30px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .nav-links a {
@@ -31,12 +44,22 @@ body {
     color: #000000;
 }
 
-button {
+button1 {
     color: black;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1px;
     border: 1px solid #000000;
-    padding: 10px 20px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+
+}
+
+button2 {
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    padding: 20px 35px 20px 35px;
 }
 
 .company-logos {
@@ -48,7 +71,7 @@ button {
 
 .company-logos img {
     /* 下面的设置*/
-    height: 45px;
+    height: 40px;
     width: auto;
     filter: grayscale(100%);
 }
@@ -60,4 +83,16 @@ button {
     align-items: center;
     margin: 25px;
     gap: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: medium;
+    font-weight: 500px;
+}
+
+p {
+    font-size: 20px;
+    font-style: regular;
+    font-weight: 400;
 }
