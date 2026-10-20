@@ -48,6 +48,7 @@ button1 {
     color: black;
     background-color: white;
     border-radius: 1px;
+    border-radius: 14px;
     border: 1px solid #000000;
     padding: 20px 35px 20px 35px;
     gap: 10px;

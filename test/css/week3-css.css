@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+QLD+Hand:wght@400..700&family=Liu+Jian+Mao+Cao&family=Playwrite+CA+Guides&display=swap');
+
+body,
+h1 {
+    background-color: rgb(141, 150, 244);
+    color: rgb(255, 255, 255);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    line-height: 2.5;
+    background-image: url('../images/Animal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+}
+
+p1 {
+    font-family: "Edu QLD Hand", cursive;
+}
+
+p2 {
+    font-family: "Playwrite CA Guides", cursive;
+}
+
+p3 {
+    font-family: "Liu Jian Mao Cao", cursive;
+}
+
+p1,
+p2,
+p3,
+a {
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid rgb(83, 99, 218);
+    border-radius: 5px 10px 15px 20px;
+    box-shadow: 5px 10px 10px rgba(77, 24, 126, 0.5);
+
+}
+
+a {
+    color: rgb(121, 102, 216);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    box-shadow: 5px 10px 10px rgba(32, 14, 14, 0.5);
+}

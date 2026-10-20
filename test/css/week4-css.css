@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(206, 215, 31);
+}
+
+button {
+    display: block;
+    /*display:none（全部隐藏）*/
+    font-size: 20px;
+}
+
+div {
+    display: inline;
+}
+
+/*Tablet styles*/
+@media screen and (max-width: 900px) {
+    body {
+        background-color: rgb(205, 112, 0);
+    }
+
+    /*Mobile styles*/
+    @media screen and (max-width: 750px) {
+        body {
+            background-color: rgb(255, 0, 0);
+        }
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: blue;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(197, 206, 250);
+    color: red;
+}
+
+h1,
+h2 {
+    color: rgb(12, 12, 159);
+    background-color: rgb(84, 149, 213);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+p {
+    color: purple;
+    background-color: lightblue;
+    border: 2.5px dotted black;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+}

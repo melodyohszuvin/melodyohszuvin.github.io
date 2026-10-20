@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: row(defalt),row-reverse,column(defalt), column-reverse*/
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.box {
+    padding: 10px;
+    flex: 1;
+}
+
+.london {
+    background-color: #FFF4A3;
+}
+
+.oslo {
+    background-color: #FFC0C7;
+    flex: 2;
+}
+
+.rome {
+    background-color: #D9EEE1;
+
+}
