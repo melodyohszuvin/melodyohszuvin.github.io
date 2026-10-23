@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 90px;
+    padding: 10px 80px;
 }
 
 .logos-row {
@@ -35,7 +35,7 @@ body {
     /*上中的setting */
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     font-size: 20px;
 }
 
@@ -55,7 +55,7 @@ button1 {
     gap: 10px;
 }
 
-button2 {
+.btn-primary {
     color: white;
     background-color: black;
     border-radius: 14px;
@@ -67,9 +67,8 @@ button2 {
 .company-logos {
     /* 下面的设置*/
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 20px 90px;
+    padding: 40px 80px;
 }
 
 .company-logos img {
@@ -85,7 +84,7 @@ button2 {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 20px 80px 80px 80px;
+    margin: 0px 80px 0px 80px;
 }
 
 .hero-left,
@@ -94,20 +93,21 @@ button2 {
 }
 
 .hero-right img {
-    width: 80%;
+    width: 70%;
     display: block;
     height: auto;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-style: medium;
     font-weight: 500;
+    line-height: 1.2;
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
