@@ -15,7 +15,7 @@ body {
     /*下面的logo */
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .logo {
@@ -64,24 +64,20 @@ button2 {
     padding: 20px 35px 20px 35px;
 }
 
-.topr {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .company-logos {
     /* 下面的设置*/
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 90px;
 }
 
 .company-logos img {
     /* 下面的设置*/
-    height: 40px;
+    height: 50px;
     width: auto;
     filter: grayscale(100%);
+
 }
 
 .hero-section {
