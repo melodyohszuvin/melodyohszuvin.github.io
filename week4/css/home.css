@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px;
+    padding: 20px 90px;
 }
 
 .logos-row {
@@ -34,6 +34,7 @@ body {
 .nav-links {
     /*上中的setting */
     display: flex;
+    align-items: center;
     gap: 30px;
     font-size: 20px;
 }
@@ -44,16 +45,14 @@ body {
     color: #000000;
 }
 
-
 button1 {
     color: black;
     background-color: white;
     border-radius: 1px;
     border-radius: 14px;
     border: 1px solid #000000;
-    padding: 20px 35px 20px 35px;
+    padding: 20px 35px;
     gap: 10px;
-
 }
 
 button2 {
@@ -90,7 +89,7 @@ button2 {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 100px;
+    margin: 20px 80px 80px 80px;
 }
 
 .hero-left,
@@ -106,13 +105,13 @@ button2 {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 50px;
     font-style: medium;
     font-weight: 500;
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 }
 
