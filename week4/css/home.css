@@ -137,8 +137,11 @@ p {
         width: 25px;
     }
 
-    button {
-        display: none;
+    .btn-primary {
+        font-size: 13px;
+        border-radius: 14px;
+        padding: 20px 35px 20px 35px;
+        width: 100%;
     }
 
     .burger {
@@ -154,8 +157,6 @@ p {
     .nav-links {
         display: none;
     }
-
-    button1 {}
 
     .hero-left {
         flex-direction: column;
