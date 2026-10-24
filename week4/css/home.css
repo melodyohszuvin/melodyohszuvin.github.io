@@ -145,7 +145,6 @@ p {
         width: 30px;
         height: auto;
         display: block;
-
     }
 
     .container {
@@ -162,6 +161,7 @@ p {
 
     .hero-section {
         flex-direction: column-reverse;
+        gap: 0px;
     }
 
     .logos-row {
@@ -170,11 +170,11 @@ p {
     }
 
     h1 {
-        font-size: 43px;
+        font-size: 36px;
     }
 
     p {
-        font-size: 36px;
+        font-size: 13px;
     }
 
     .hero-right img {
