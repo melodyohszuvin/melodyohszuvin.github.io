@@ -31,6 +31,12 @@ body {
     color: #000000;
 }
 
+.burger {
+    width: 30px;
+    height: auto;
+    display: none;
+}
+
 .nav-links {
     /*上中的setting */
     display: flex;
@@ -112,14 +118,34 @@ p {
 }
 
 /*Mobile Screen*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     .navbar {
-        justify-content: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 20px;
+    }
 
+    .logo span {
+        /*logo字体大小*/
+        font-size: 26px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    img {
+        width: 25px;
     }
 
     button {
         display: none;
+    }
+
+    .burger {
+        width: 30px;
+        height: auto;
+        display: block;
+
     }
 
     .container {
@@ -144,10 +170,14 @@ p {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 43px;
     }
 
     p {
-        font-size: 30px;
+        font-size: 36px;
+    }
+
+    .hero-right img {
+        width: 100%;
     }
 }
