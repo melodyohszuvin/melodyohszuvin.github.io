@@ -117,6 +117,24 @@ p {
     font-weight: 400;
 }
 
+/*Service Part*/
+.service-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 80px 0px 80px;
+}
+
+.service-section h2 {
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 0 7px;
+}
+
+.service-section p {
+    font-size: 18px;
+}
+
 /*Mobile Screen*/
 @media screen and (max-width: 500px) {
     .navbar {
