@@ -155,6 +155,8 @@ p {
         display: none;
     }
 
+    button1 {}
+
     .hero-left {
         flex-direction: column;
     }
@@ -162,6 +164,7 @@ p {
     .hero-section {
         flex-direction: column-reverse;
         gap: 0px;
+        margin: 0px 20px 0px 20px;
     }
 
     .logos-row {
