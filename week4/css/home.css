@@ -129,10 +129,15 @@ p {
     background-color: #B9FF66;
     border-radius: 7px;
     padding: 0 7px;
+    font-size: 40px;
 }
 
 .service-section p {
     font-size: 18px;
+}
+
+.box h1 {
+    font-size: 30px;
 }
 
 /*Mobile Screen*/
