@@ -165,8 +165,18 @@ p {
     }
 
     .logos-row {
-        flex: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .company-logos img {
+        width: calc(50% - 13px);
+        /* 每张占一半，格子宽度统一 */
+        height: 40px;
+        object-fit: contain;
     }
 
     h1 {
