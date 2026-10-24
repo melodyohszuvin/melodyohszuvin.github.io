@@ -159,13 +159,29 @@ p {
     }
 
     .hero-left {
-        flex-direction: column;
+        display: contents;
     }
 
     .hero-section {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 0px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px;
+    }
+
+    .hero-section h1 {
+        order: 1;
+    }
+
+    .hero-right {
+        order: 2;
+    }
+
+    .hero-section p {
+        order: 3;
+    }
+
+    .hero-section .btn-primary {
+        order: 4;
     }
 
     .company-logos {
@@ -194,6 +210,7 @@ p {
 
     p {
         font-size: 15px;
+        margin: 20px;
     }
 
     .hero-right img {
