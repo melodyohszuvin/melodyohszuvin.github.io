@@ -51,7 +51,7 @@ body {
     color: #000000;
 }
 
-button1 {
+.button1 {
     color: black;
     background-color: white;
     border-radius: 1px;
@@ -227,12 +227,13 @@ p {
 /*cta-section*/
 .cta-section {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #F3F3F3;
     border-radius: 30px;
-    padding: 40px 60px;
-    margin: 80px 80px 80px;
+    padding: 60px 60px;
+    margin: 90px 80px 90px;
 }
 
 .cta-text {
@@ -254,12 +255,17 @@ p {
     color: #FFF;
     border: none;
     border-radius: 14px;
-    padding: 16px 28px;
+    padding: 14px 24px;
     font-size: 20px;
 }
 
 .cta-pic {
-    width: 300px;
+    position: absolute;
+    right: 160px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
+    height: auto;
 }
 
 /*Mobile Screen*/
