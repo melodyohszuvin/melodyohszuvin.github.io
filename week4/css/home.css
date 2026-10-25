@@ -165,10 +165,26 @@ p {
     gap: 15px;
 }
 
-.a h1 span {
-    /*第一个title*/
+.a h1 span,
+.b h1 span,
+.c h1 span,
+.d h1 span,
+.e h1 span,
+.f h1 span {
+    /*第一个title绿*/
     align-self: flex-start;
     background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 0 7px;
+}
+
+.b h1 span,
+.c h1 span,
+.e h1 span {
+
+    /*第一个title绿*/
+    align-self: flex-start;
+    background-color: #FFFF;
     border-radius: 7px;
     padding: 0 7px;
 }
