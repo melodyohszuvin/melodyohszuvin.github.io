@@ -138,9 +138,6 @@ p {
 
 .pic {
     width: 250px;
-    /* 想大想小就改这个数字 */
-    align-self: center;
-    /* 垂直居中 */
 }
 
 .boxes {
@@ -176,13 +173,15 @@ p {
     background-color: #B9FF66;
     border-radius: 7px;
     padding: 0 7px;
+
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .b h1 span,
 .c h1 span,
 .e h1 span {
-
-    /*第一个title绿*/
+    /*第一个title白*/
     align-self: flex-start;
     background-color: #FFFF;
     border-radius: 7px;
@@ -191,6 +190,7 @@ p {
 
 .box {
     display: flex;
+    justify-content: space-between;
     padding: 40px;
     background-color: #F3F3F3;
     font-size: 30px;
