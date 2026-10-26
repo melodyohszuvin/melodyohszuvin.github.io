@@ -32,6 +32,12 @@ body {
 }
 
 /*content*/
+.ppic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 .intro {
     text-align: center;
     padding: 40px 20px;
