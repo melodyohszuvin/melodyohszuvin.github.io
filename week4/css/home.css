@@ -387,4 +387,12 @@ p {
         justify-content: center;
 
     }
+
+    .service-section p {
+        font-size: 15px;
+    }
+
+    .desktop-br {
+        display: none;
+    }
 }
