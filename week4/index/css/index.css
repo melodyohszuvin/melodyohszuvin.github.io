@@ -82,6 +82,11 @@ body {
     padding: 30px;
 }
 
+.exelist h3 img {
+    width: 22px;
+    height: auto;
+}
+
 .w4 {
     grid-column: 1 / -1;
 }
@@ -101,6 +106,10 @@ body {
     padding-bottom: 8px;
     border-bottom: 1px solid #333;
     /* 标题下面的横线 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .exelist p {
