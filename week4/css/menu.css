@@ -17,8 +17,14 @@ body {
 }
 
 .contact img {
-    height: 50px;
+    height: 45px;
     width: auto;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .menu-bar {
@@ -33,5 +39,14 @@ body {
 }
 
 .menu-bar a:hover {
-    color: #ff6a2b;
+    color: #f45f2a;
+}
+
+.contact button {
+    color: white;
+    background-color: #f45f2a;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 15px;
+    gap: 10px;
 }
