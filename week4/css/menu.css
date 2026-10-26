@@ -89,3 +89,6 @@ body {
         gap: 20px;
     }
 }
+
+/*Mobile Screen*/
+@media screen and (max-width: 500px) {}
