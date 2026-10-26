@@ -4,3 +4,19 @@ body {
     font-family: "Fraunces", serif;
     font-family: "Raleway", sans-serif;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #4988C4;
+}
+
+.logo {
+    width: 90px;
+}
+
+.social-media img {
+    width: 20px;
+}
