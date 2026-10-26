@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 40px;
 }
 
 .logo img {
@@ -19,4 +19,9 @@ body {
 .contact img {
     height: 50px;
     width: auto;
+}
+
+.menu-bar {
+    display: flex;
+    gap: 30px;
 }
