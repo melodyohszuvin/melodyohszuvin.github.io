@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lilita+One&display=swap');
 
 body {
-    background-color: #BDE8F5;
     margin: 0;
 }
 
@@ -41,6 +40,9 @@ body {
 .intro {
     text-align: center;
     padding: 40px 20px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .intro h1 {
