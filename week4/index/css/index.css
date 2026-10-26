@@ -62,7 +62,7 @@ body {
     font-weight: normal;
 }
 
-.intro p1 {
+.intro p {
     /*description*/
     max-width: 500px;
     margin: 0 auto;
@@ -162,4 +162,17 @@ body {
 .header .social-media a:hover img,
 .footer .social-media a:hover img {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 50px;
+        position: relative;
+        top: -4px;
+    }
+
+    .social-media img {
+        align-items: center;
+        width: 12px;
+    }
 }
