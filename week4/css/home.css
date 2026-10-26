@@ -401,7 +401,7 @@ p {
         grid-template-columns: 1fr;
         /* 两排 */
         gap: 30px;
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     .box h1 {
@@ -413,7 +413,7 @@ p {
         justify-content: space-between;
         align-items: center;
         padding: 50px;
-        height: 320px;
+        height: 290px;
         box-sizing: border-box;
     }
 
@@ -431,4 +431,14 @@ p {
     .left {
         align-self: stretch;
     }
+
+    .learn img {
+        width: 35px;
+        height: auto;
+    }
+
+    .service-section {
+        margin: 20px 80px 30px 80px;
+    }
+
 }
