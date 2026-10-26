@@ -4,6 +4,13 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
 .logo img {
     height: 50px;
     width: auto;
