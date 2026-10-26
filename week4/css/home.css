@@ -418,7 +418,10 @@ p {
     }
 
     .pic {
-        width: 180px;
+        align-self: flex-end;
+        /* 图片贴到底部 */
+        width: 200px;
+        height: auto;
     }
 
     .learn span {
