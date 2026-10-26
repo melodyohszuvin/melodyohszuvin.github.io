@@ -82,4 +82,10 @@ body {
         width: 40px;
         height: auto;
     }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 }
