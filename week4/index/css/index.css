@@ -74,6 +74,40 @@ body {
     font-family: "Google Sans", sans-serif;
 }
 
+/*exercise list*/
+.exelist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.w4 {
+    grid-column: 1 / -1;
+}
+
+.w1,
+.w2,
+.w3,
+.w4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.exelist h3 {
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #333;
+    /* 标题下面的横线 */
+}
+
+.exelist p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
 /*footer*/
 .footer {
     display: flex;
