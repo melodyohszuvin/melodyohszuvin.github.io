@@ -91,4 +91,8 @@ body {
 }
 
 /*Mobile Screen*/
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
+    .contact {
+        display: none;
+    }
+}
