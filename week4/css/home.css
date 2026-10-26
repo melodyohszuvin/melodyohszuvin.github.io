@@ -372,4 +372,19 @@ p {
     .hero-right img {
         width: 100%;
     }
+
+    .service-section h2 {
+        display: inline-block;
+        background-color: #B9FF66;
+        border-radius: 7px;
+        padding: 0 7px;
+        font-size: 30px;
+    }
+
+    .service-section {
+        display: block;
+        text-align: center;
+        justify-content: center;
+
+    }
 }
