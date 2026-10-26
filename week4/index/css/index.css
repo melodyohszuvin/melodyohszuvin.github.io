@@ -176,6 +176,11 @@ body {
         width: 12px;
     }
 
+    .ppic {
+        width: 120px;
+        height: 120px;
+    }
+
     .intro h1 {
         /*name*/
         font-size: 20px;
@@ -195,8 +200,8 @@ body {
         font-size: 15px;
     }
 
-    .intro {
-        padding: 15px;
+    .exelist>div {
+        padding: 10px;
     }
 
     .footer .disclaimer p1 {
