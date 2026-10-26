@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 body {
     margin: 0;
@@ -70,7 +70,7 @@ body {
 
 .intro h1,
 .intro h2 {
-    font-family: "Lilita One", sans-serif;
+    font-family: "Google Sans", sans-serif;
 }
 
 .intro p1 {
@@ -115,13 +115,8 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 22px;
-    font-family: "Lilita One", sans-serif;
+    font-family: "Google Sans", sans-serif;
     ;
-}
-
-.exelist p1 {
-    margin: 8px 0;
-    font-size: 20px;
 }
 
 /*footer*/
