@@ -194,4 +194,12 @@ body {
     .exelist h3 {
         font-size: 15px;
     }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .footer .disclaimer p1 {
+        font-size: 13px;
+    }
 }
