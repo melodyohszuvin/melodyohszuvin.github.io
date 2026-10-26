@@ -7,10 +7,7 @@ body {
     margin: 0;
 }
 
-p1 {
-    font-family: "Raleway", sans-serif;
-}
-
+/*header*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,4 +31,25 @@ p1 {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 20px;
+    background-color: #4988C4;
+}
+
+.footer .social-media {
+    justify-content: center;
+    /* 三个icon在中间 */
+}
+
+.disclaimer p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
 }
