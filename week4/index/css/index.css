@@ -166,14 +166,14 @@ body {
 
 @media screen and (max-width: 500px) {
     .logo {
-        width: 50px;
+        width: 55px;
         position: relative;
         top: -4px;
     }
 
     .social-media img {
         align-items: center;
-        width: 12px;
+        width: 14px;
     }
 
     .ppic {
@@ -200,8 +200,8 @@ body {
         font-size: 15px;
     }
 
-    .exelist>div {
-        padding: 10px;
+    .exelist {
+        padding: 13px;
     }
 
     .footer .disclaimer p1 {
