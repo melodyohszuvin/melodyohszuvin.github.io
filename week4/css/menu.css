@@ -21,10 +21,18 @@ body {
     width: auto;
 }
 
+.contact img:hover {
+    opacity: 0.5;
+}
+
 .contact {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+.contact span {
+    font-weight: bold;
 }
 
 .menu-bar {
@@ -49,4 +57,8 @@ body {
     border: none;
     padding: 13px 15px;
     gap: 10px;
+}
+
+.contact button:hover {
+    background-color: #d14c1b;
 }
