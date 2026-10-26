@@ -175,4 +175,23 @@ body {
         align-items: center;
         width: 12px;
     }
+
+    .intro h1 {
+        /*name*/
+        font-size: 20px;
+    }
+
+    .intro h2 {
+        /*subject*/
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .exelist a {
+        font-size: 12px;
+    }
+
+    .exelist h3 {
+        font-size: 15px;
+    }
 }
