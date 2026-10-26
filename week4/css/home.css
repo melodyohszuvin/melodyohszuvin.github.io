@@ -410,15 +410,22 @@ p {
 
     .box {
         display: flex;
-        padding: 30px;
-        height: 350px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        height: 320px;
+        box-sizing: border-box;
     }
 
     .pic {
-        width: 200px;
+        width: 180px;
     }
 
     .learn span {
         display: none;
+    }
+
+    .left {
+        align-self: stretch;
     }
 }
