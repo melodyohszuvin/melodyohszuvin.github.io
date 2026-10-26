@@ -413,4 +413,12 @@ p {
         padding: 30px;
         height: 350px;
     }
+
+    .pic {
+        width: 200px;
+    }
+
+    .learn span {
+        display: none;
+    }
 }
