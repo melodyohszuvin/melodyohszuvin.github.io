@@ -148,8 +148,18 @@ body {
     /* 三个icon在中间 */
 }
 
-.disclaimer p1 {
+.header .disclaimer p1 {
     margin: 0;
     font-size: 10px;
     text-align: center;
+}
+
+.header .social-media img,
+.footer .social-media img {
+    transition: opacity;
+}
+
+.header .social-media a:hover img,
+.footer .social-media a:hover img {
+    opacity: 0.5;
 }
