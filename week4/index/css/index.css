@@ -45,7 +45,7 @@ body {
 
 .intro {
     text-align: center;
-    padding: 10px 20px;
+    padding: 30px 20px;
 }
 
 .intro h1 {
@@ -101,7 +101,7 @@ body {
     background-color: white;
     opacity: 80%;
     border-radius: 15px;
-    padding: 15px 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -114,11 +114,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 22px;
+    font-family: "Lilita One", sans-serif;
+    ;
 }
 
-.exelist p {
+.exelist p1 {
     margin: 8px 0;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /*footer*/
