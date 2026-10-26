@@ -95,4 +95,14 @@ body {
     .contact {
         display: none;
     }
+
+    .logo img {
+        height: 50px;
+        width: auto;
+    }
+
+    .bar {
+        width: 35px;
+        height: auto;
+    }
 }
