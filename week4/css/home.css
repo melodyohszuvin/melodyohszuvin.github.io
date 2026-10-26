@@ -441,4 +441,13 @@ p {
         margin: 20px 80px 30px 80px;
     }
 
+    .cta-pic {
+        display: none;
+    }
+
+    .cta-section {
+        padding: 50px;
+        margin: 20px;
+        border-radius: 30px;
+    }
 }
