@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+body {
+    margin: 0;
+    color: #0F2854;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #4988C4;
+}
+
+.logo {
+    width: 90px;
+    position: relative;
+    top: -4px;
+}
+
+.social-media img {
+    align-items: center;
+    width: 20px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/*content*/
+.content {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ppic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.intro {
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.intro h1 {
+    /*name*/
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.intro h2 {
+    /*subject*/
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.intro p {
+    /*description*/
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.intro h1,
+.intro h2 {
+    font-family: "Google Sans", sans-serif;
+}
+
+.intro p1 {
+    font-family: "Google Sans", sans-serif;
+}
+
+/*exercise list*/
+.exelist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.exelist a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #222;
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+}
+
+.exelist a:hover {
+    text-decoration: underline;
+    color: #1C4D8D;
+}
+
+.exelist h3 img {
+    width: 22px;
+    height: auto;
+}
+
+.w4 {
+    grid-column: 1 / -1;
+}
+
+.w1,
+.w2,
+.w3,
+.w4 {
+    background-color: white;
+    opacity: 80%;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.exelist h3 {
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #333;
+    /* 标题下面的横线 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-family: "Google Sans", sans-serif;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 20px;
+    background-color: #4988C4;
+}
+
+.footer .social-media {
+    justify-content: center;
+    /* 三个icon在中间 */
+}
+
+.header .disclaimer p1 {
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.header .social-media img,
+.footer .social-media img {
+    transition: opacity;
+}
+
+.header .social-media a:hover img,
+.footer .social-media a:hover img {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 55px;
+        position: relative;
+        top: -4px;
+    }
+
+    .social-media img {
+        align-items: center;
+        width: 14px;
+    }
+
+    .ppic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .intro h1 {
+        /*name*/
+        font-size: 20px;
+    }
+
+    .intro h2 {
+        /*subject*/
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .exelist a {
+        font-size: 12px;
+    }
+
+    .exelist h3 {
+        font-size: 15px;
+    }
+
+    .exelist {
+        padding: 13px;
+    }
+
+    .footer .disclaimer p1 {
+        font-size: 13px;
+    }
+}
