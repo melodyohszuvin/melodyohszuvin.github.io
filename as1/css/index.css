@@ -1,0 +1,24 @@
+.header {
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    line-height: 150%;
+    color: white;
+}
+
+.header .menu-bar img {
+    width: 20px;
+}
+
+.header .menu-bar {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
