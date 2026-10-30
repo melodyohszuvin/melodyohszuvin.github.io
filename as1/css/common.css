@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+font-family: "Bebas Neue",sans-serif;
+  font-family: "Lora", serif;
+    font-style: normal;
+  font-style: italic;
+  font-family: "Work Sans", sans-serif;
+*/
+
+/* === ROOT VARIABLES === */
+:root {
+    --primary: #000000;
+    --bg-nav: #333333;
+    --text-nav: #A1A1A1;
+    --border-defaltline: #D3D3D3;
+    --bg-subtle: #F2F2F2;
+    --secondary: #FFFFFF;
+    --nav-hover: #BDA16B;
+
+    /*
+    --radius: 8px;
+    --font-base: "Inter", sans-serif;*/
+}
+
+/* === RESET / NORMALIZE === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* === GLOBAL TYPOGRAPHY  === */
+body {
+    font-family: var(--font-base);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1em;
+    color: var(--text-light);
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* === Reusable Components  === */
+.btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.card {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px #ddd;
+    padding: 20px;
+}
+
+/* === Sitewide Elements  === */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+    background: var(--bg-light);
+}
