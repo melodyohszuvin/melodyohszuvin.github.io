@@ -1,5 +1,5 @@
 .header {
-    background-color: white;
+    background-color: none;
 }
 
 .logo {
@@ -24,7 +24,16 @@
 }
 
 .hero {
-    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #000 0%, #000 45%, transparent 60%),
+        /* 左边黑色并渐变 */
+        url("../images/Environment.jpg") right center / 55% 100% no-repeat,
+        /* 图片靠右占 55% */
+        #000;
+}
+
+.hero-banner {
+    color: white;
 }
