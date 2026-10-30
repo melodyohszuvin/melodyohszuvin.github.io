@@ -24,14 +24,12 @@
 }
 
 .hero {
-    background-size: cover;
-    background-position: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #000 0%, #000 45%, transparent 60%),
-        /* 左边黑色并渐变 */
-        url("../images/Environment.jpg") right center / 55% 100% no-repeat,
-        /* 图片靠右占 55% */
-        #000;
+    background-color: #000;
+    background-image: url("../images/Environment.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
 }
 
 .hero-banner {
