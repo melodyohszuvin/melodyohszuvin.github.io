@@ -29,11 +29,6 @@ font-family: "Bebas Neue",sans-serif;
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -45,6 +40,29 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: #fff;
+}
+
+/*self-add*/
+hero-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 95px;
+    line-height: 114px;
+}
+
+/*self-add*/
+eyebrown-heading {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    SPACING: 1.4px;
+}
+
+/*self-add*/
+p {
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 33.3px;
 }
 
 h1,
