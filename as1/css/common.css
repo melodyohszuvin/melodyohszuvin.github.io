@@ -27,13 +27,6 @@
     box-sizing: border-box;
 }
 
-/*
-a {
-    text-decoration: none;
-    color: inherit;
-}
-*/
-
 /* === GLOBAL TYPOGRAPHY  === */
 /*Hero-Title*/
 h1 {
@@ -106,7 +99,7 @@ button {
 }
 
 a:hover {
-    color: var(--primary);
+    opacity: 60%;
 }
 
 img {
@@ -186,8 +179,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
-    background-color: var(--primary);
+    padding: 20px 20px;
 }
 
 .nav {
