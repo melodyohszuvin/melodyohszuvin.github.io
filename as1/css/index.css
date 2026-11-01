@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: var(--font-heading);
     font-size: 40px;
     line-height: 150%;
-    color: white;
+    color: var(--secondary);
 }
 
 .header .menu-bar img {
@@ -17,15 +17,15 @@
 }
 
 .header .menu-bar {
-    font-family: "Work Sans", sans-serif;
+    font-family: var(--font-body);
     font-size: 15px;
     line-height: 18px;
-    color: white;
+    color: var(--secondary);
 }
 
 .hero {
     min-height: 100vh;
-    background-color: #000;
+    background-color: var(--primary);
     background-image: url("../images/Environment.jpg");
     background-repeat: no-repeat;
     background-position: right center;
@@ -33,5 +33,5 @@
 }
 
 .hero-banner {
-    color: white;
+    color: var(--secondary);
 }
