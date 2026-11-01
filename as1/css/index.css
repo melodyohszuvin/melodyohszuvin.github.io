@@ -33,11 +33,20 @@
     background-image: url("../images/Environment.jpg");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: auto 100%;
+    background-size: 55% 100%;
 }
 
 .hero-banner {
     max-width: 600px;
     padding: 80px 0 0 100px;
     color: var(--secondary);
+}
+
+.footer {
+    height: 30px;
+    background-color: var(--primary);
+    background-image: url("../images/Footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
 }
