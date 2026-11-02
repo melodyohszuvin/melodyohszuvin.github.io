@@ -159,7 +159,7 @@
     border-radius: 50%;
 }
 
-/*Tabley Screen*/
+/*Tablet Screen*/
 @media screen and (max-width: 1024px) {
     .header {
         width: 1024px;
@@ -196,5 +196,19 @@
     .hero-banner p {
         max-width: 420px;
         margin: 0;
+    }
+
+    .popular .head {
+        padding: 60px 0 60px;
+    }
+
+    .food-list {
+        flex-direction: column;
+        gap: 80px;
+        padding: 0;
+    }
+
+    .food-list2 {
+        order: -1;
     }
 }
