@@ -43,9 +43,27 @@
     color: var(--secondary);
 }
 
-/*Pupular*/
+/*Popular*/
 .popular {
     top: 784px;
+}
+
+.head {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px 0 0;
+}
+
+.section-title {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-defaltline);
+    margin-bottom: 20px;
+}
+
+.head h2 {
+    margin-bottom: 20px;
 }
 
 .food-list {
