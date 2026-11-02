@@ -71,6 +71,13 @@ section-title {
     line-height: 55.2px;
 }
 
+.section-title {
+    font-family: var(--font-serif);
+    font-style: var(--style-italic);
+    font-size: 46px;
+    line-height: 55.2px;
+}
+
 menu-title {
     font-family: var(--font-serif);
     font-style: var(--style-italic);
