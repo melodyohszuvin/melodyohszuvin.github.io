@@ -280,9 +280,10 @@
         line-height: 1.6;
     }
 
-    /*Pupular*/
+    /*Popular*/
     .popular .section-title span {
         display: block;
         font-size: 43px;
         line-height: 52px;
     }
+}
