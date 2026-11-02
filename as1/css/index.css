@@ -87,7 +87,7 @@
 /*Atmosphere*/
 .atmosphere {
     height: 799px;
-    background-image: url("../images/Dining\ Table.jpg");
+    background-image: url("../images/Dining Table.jpg");
     color: var(--secondary);
     background-repeat: no-repeat;
     display: flex;
@@ -285,5 +285,31 @@
         display: block;
         font-size: 43px;
         line-height: 52px;
+    }
+
+    .atmosphere {
+        height: auto;
+        background-image: url("../images/Dining Table-mobile.png");
+        background-color: var(--primary);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        padding: 440px 0 60px;
+        text-align: center;
+    }
+
+    .atmosphere-text {
+        padding: 0 30px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .atmosphere-text h2 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .atmosphere-text p {
+        font-size: 16px;
+        line-height: 1.6;
     }
 }
