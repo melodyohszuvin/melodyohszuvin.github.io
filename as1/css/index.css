@@ -161,6 +161,10 @@
 
 /*Tablet Screen*/
 @media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .header {
         width: 1024px;
         height: 137px;
@@ -216,20 +220,33 @@
         order: -1;
     }
 
-    .food-list1,
-    .food-list2,
-    .food-list3,
     .food-item,
     .food-item picture,
     .food-item img {
         width: 100%;
     }
 
+    /*Ceft Specials 的字体大小*/
+    .food-list2 .food-item h3 {
+        font-family: var(--font-heading);
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    /*Ceft Specials 的图片大小*/
+    .food-list1,
+    .food-list2,
+    .food-list3,
     .food-item img {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 10;
         object-fit: cover;
         object-position: center 60%;
+    }
+
+    /*Seasonal btn 的  margin */
+    .food-item .btn {
+        margin: 0 0 30px;
     }
 }
