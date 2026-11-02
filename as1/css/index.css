@@ -198,17 +198,30 @@
         margin: 0;
     }
 
+    .popular {
+        padding: 0;
+    }
+
     .popular .head {
         padding: 60px 0 60px;
     }
 
     .food-list {
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
         padding: 0;
     }
 
     .food-list2 {
         order: -1;
+    }
+
+    .food-list1,
+    .food-list2,
+    .food-list3,
+    .food-item,
+    .food-item picture,
+    .food-item img {
+        width: 100%;
     }
 }
