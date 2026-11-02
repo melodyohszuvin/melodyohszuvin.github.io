@@ -35,6 +35,8 @@
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 55% 100%;
+    background-repeat: no-repeat;
+
 }
 
 .hero-banner {
@@ -83,10 +85,27 @@
     text-align: center;
 }
 
+/*Atmosphere*/
 .atmosphere {
     height: 799px;
     background-image: url("../images/Dining\ Table.jpg");
+    color: var(--secondary);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    align-items: flex-start;
 
+}
+
+.atmosphere-text {
+    max-width: 480px;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+.atmosphere-text h2 {
+    margin-bottom: 20px;
 }
 
 /*footer*/
@@ -99,6 +118,8 @@
     align-items: center;
     background-color: #444;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+
 }
 
 .footer-content {
