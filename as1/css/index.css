@@ -185,7 +185,16 @@
 
     .hero-banner {
         max-width: 100%;
-        padding: 800px 40px 60px;
+        padding: 880px 40px 150px 200px;
     }
 
+    .hero-banner h1 {
+        max-width: 420px;
+        margin: 10px 0 20px;
+    }
+
+    .hero-banner p {
+        max-width: 420px;
+        margin: 0;
+    }
 }
