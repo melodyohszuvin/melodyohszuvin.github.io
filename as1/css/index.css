@@ -36,7 +36,6 @@
     background-position: right center;
     background-size: 55% 100%;
     background-repeat: no-repeat;
-
 }
 
 .hero-banner {
@@ -259,7 +258,25 @@
 /*Mobile Screen*/
 @media screen and (max-width: 640px) {
     .header {
+        font-size: 40px;
+        line-height: 150;
         width: 640px;
         height: 137px;
+    }
+
+    .hero-banner {
+        max-width: 100%;
+        padding: 560px 30px 100px 90px;
+    }
+
+    .hero-banner h1 {
+        font-size: 84px;
+        line-height: 101.9px;
+    }
+
+    .hero-banner p {
+        max-width: 100%;
+        font-size: 19px;
+        line-height: 1.6;
     }
 }
