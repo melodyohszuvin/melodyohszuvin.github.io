@@ -83,6 +83,12 @@
     text-align: center;
 }
 
+.atmosphere {
+    height: 799px;
+    background-image: url("../images/Dining\ Table.jpg");
+
+}
+
 /*footer*/
 .footer {
     height: 579px;
