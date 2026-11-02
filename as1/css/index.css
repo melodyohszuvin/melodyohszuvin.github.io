@@ -249,4 +249,9 @@
     .food-item .btn {
         margin: 0 0 30px;
     }
+
+    .atmosphere {
+        height: 592px;
+        background-image: url("../images/Dining\ Table-tablet.png");
+    }
 }
