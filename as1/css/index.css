@@ -255,3 +255,11 @@
         background-image: url("../images/Dining\ Table-tablet.png");
     }
 }
+
+/*Mobile Screen*/
+@media screen and (max-width: 640px) {
+    .header {
+        width: 640px;
+        height: 137px;
+    }
+}

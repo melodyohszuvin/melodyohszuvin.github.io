@@ -192,3 +192,58 @@ a {
     font-family: var(--font-serif);
     color: var(--secondary);
 }
+
+/*Mobile Screen Typography Setting*/
+@media screen and (max-width: 640px) {
+
+    /*Hero-Title*/
+    h1 {
+        font-size: 84px;
+        line-height: 101.9px;
+    }
+
+    /*Title*/
+    h2 {
+        font-size: 63px;
+        line-height: 76.4px;
+    }
+
+    /*Sub-Title*/
+    h3 {
+        font-size: 51px;
+        line-height: 81.3px;
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    /*Sub-Object-Title*/
+    h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /*Section-Title*/
+    section-title {
+        font-size: 43px;
+        line-height: 52px;
+    }
+
+    .section-title {
+        font-size: 46px;
+        line-height: 55.2px;
+    }
+
+    menu-title {
+        font-size: 38px;
+        line-height: 45.9px;
+    }
+
+    eyebrown-heading {
+        font-size: 15px;
+        line-height: 18px;
+        SPACING: 1.4px;
+    }
+}
