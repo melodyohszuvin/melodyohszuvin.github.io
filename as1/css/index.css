@@ -158,3 +158,20 @@
     display: flex;
     border-radius: 50%;
 }
+
+/*Tabley Screen*/
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 1024px;
+        height: 137px;
+        background-color: var(--primary);
+    }
+
+    .hero .header .logo {
+        margin-left: 20px;
+    }
+
+    .hero .header .menu-bar {
+        display: none;
+    }
+}

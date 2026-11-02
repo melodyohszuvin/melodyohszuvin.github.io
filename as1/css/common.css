@@ -172,15 +172,6 @@ a {
     border-right: none;
 }
 
-/*
-.card {
-    background: #fff;
-    border-radius: var(--radius);
-    box-shadow: 0 0 10px #ddd;
-    padding: 20px;
-}
-*/
-
 /* === Sitewide Elements  === */
 .header {
     display: flex;
