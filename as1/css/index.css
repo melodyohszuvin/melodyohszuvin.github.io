@@ -224,4 +224,12 @@
     .food-item img {
         width: 100%;
     }
+
+    .food-item img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+        object-position: center 60%;
+    }
 }
