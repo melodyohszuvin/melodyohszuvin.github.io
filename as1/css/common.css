@@ -95,14 +95,14 @@ eyebrown-heading {
     font-family: var(--font-body);
     font-size: 15px;
     line-height: 18px;
-    SPACING: 1.4px;
+    letter-spacing: 1.4px;
 }
 
 button {
     font-family: var(--font-body);
     font-size: 15px;
     line-height: 18px;
-    SPACING: 1px;
+    letter-spacing: 1px;
 }
 
 a:hover {
@@ -244,6 +244,6 @@ a {
     eyebrown-heading {
         font-size: 15px;
         line-height: 18px;
-        SPACING: 1.4px;
+        letter-spacing: 1.4px;
     }
 }
