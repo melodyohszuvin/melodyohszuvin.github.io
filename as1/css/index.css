@@ -98,7 +98,6 @@
     align-items: center;
     background-size: cover;
     align-items: flex-start;
-
 }
 
 .atmosphere-text {
@@ -140,10 +139,6 @@
     gap: 10px;
     font-family: var(--font-heading);
     font-size: 40px;
-}
-
-.footer-logo img {
-    width: 60px;
 }
 
 .footer p {

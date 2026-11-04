@@ -18,6 +18,8 @@
     --font-body: "Work Sans", sans-serif;
     --font-serif: "Lora", serif;
     --style-italic: italic;
+
+    --radius: 8px;
 }
 
 /* === RESET / NORMALIZE === */
@@ -29,36 +31,39 @@
 
 /* === GLOBAL TYPOGRAPHY  === */
 /*Hero-Title*/
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: var(--font-heading);
+}
+
+h1 {
     font-size: 95px;
     line-height: 114px;
 }
 
 /*Title*/
 h2 {
-    font-family: var(--font-heading);
     font-size: 70px;
     line-height: 84px;
 }
 
 /*Sub-Title*/
 h3 {
-    font-family: var(--font-heading);
     font-size: 56px;
     line-height: 64px;
 }
 
 /*Object-Title*/
 h4 {
-    font-family: var(--font-heading);
     font-size: 30px;
     line-height: 36px;
 }
 
 /*Sub-Object-Title*/
 h5 {
-    font-family: var(--font-heading);
     font-size: 25px;
     line-height: 30px;
 }
