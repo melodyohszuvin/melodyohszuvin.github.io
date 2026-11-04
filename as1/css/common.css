@@ -2,17 +2,17 @@
 
 /* === ROOT VARIABLES === */
 :root {
-    --primary: #000000;
-    --bg-nav: #333333;
-    --text-nav: #A1A1A1;
-    --border-defaltline: #D3D3D3;
-    --bg-subtle: #F2F2F2;
-    --secondary: #FFFFFF;
+    --text-main: #000000;
+    --nav-bg: #333333;
+    --nav-text: #A1A1A1;
+    --border-line: #D3D3D3;
+    --bg-section: #F2F2F2;
+    --text-secondary: #FFFFFF;
     --nav-hover: #BDA16B;
 
     --btn-padding: 10px 18px;
-    --btn-bg: var(--primary);
-    --btn-text: var(--secondary);
+    --btn-bg: var(--text-main);
+    --btn-text: var(--text-secondary);
 
     --font-heading: "Bebas Neue", sans-serif;
     --font-body: "Work Sans", sans-serif;
@@ -130,7 +130,7 @@ a {
     padding: var(--btn-padding);
     background-color: var(--btn-bg);
     color: var(--btn-text);
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--text-secondary);
     border-radius: var(--radius);
     cursor: pointer;
     transition: 0.3s;
@@ -141,38 +141,38 @@ a {
 
 /* btn-black: 背景变黑 */
 .btn-black:hover {
-    background-color: var(--primary);
+    background-color: var(--text-main);
 }
 
 /* btn-white: 白底黑字 */
 .btn-white:hover {
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--text-secondary);
+    color: var(--text-main);
 }
 
 /*默认灰框，悬停变黑框 */
 .btn-outline {
-    background-color: var(--secondary);
-    color: var(--primary);
-    border: 1px solid var(--border-defaltline);
+    background-color: var(--text-secondary);
+    color: var(--text-main);
+    border: 1px solid var(--border-line);
 }
 
 .btn-outline:hover {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--text-main);
 }
 
 /*金底，悬停变透明 + 细线 */
 .btn-gold {
     background-color: var(--nav-hover);
-    color: var(--secondary);
+    color: var(--text-secondary);
     border: 1px solid var(--nav-hover);
 }
 
 .btn-gold:hover {
     background-color: transparent;
-    color: var(--primary);
-    border-top: 1px solid var(--border-defaltline);
-    border-bottom: 1px solid var(--border-defaltline);
+    color: var(--text-main);
+    border-top: 1px solid var(--border-line);
+    border-bottom: 1px solid var(--border-line);
     border-left: none;
     border-right: none;
 }
@@ -195,7 +195,7 @@ a {
     text-align: center;
     padding: 20px 0;
     font-family: var(--font-serif);
-    color: var(--secondary);
+    color: var(--text-secondary);
 }
 
 /*Mobile Screen Typography Setting*/

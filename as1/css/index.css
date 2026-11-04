@@ -7,7 +7,7 @@
     font-family: var(--font-heading);
     font-size: 40px;
     line-height: 150%;
-    color: var(--secondary);
+    color: var(--text-secondary);
 }
 
 .header .menu-bar img {
@@ -19,7 +19,7 @@
     font-family: var(--font-body);
     font-size: 15px;
     line-height: 18px;
-    color: var(--secondary);
+    color: var(--text-secondary);
     align-items: center;
     gap: 30px;
     font-family: var(--font-body);
@@ -30,7 +30,7 @@
 
 .hero {
     height: 730px;
-    background-color: var(--primary);
+    background-color: var(--text-main);
     background-image: url("../images/Environment.jpg");
     background-repeat: no-repeat;
     background-position: right center;
@@ -41,7 +41,7 @@
 .hero-banner {
     max-width: 600px;
     padding: 80px 0 0 100px;
-    color: var(--secondary);
+    color: var(--text-secondary);
 }
 
 .hero .header .bar {
@@ -56,7 +56,7 @@
 .section-title {
     display: inline-block;
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--border-defaltline);
+    border-bottom: 1px solid var(--border-line);
     margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@
 .atmosphere {
     height: 799px;
     background-image: url("../images/Dining Table.jpg");
-    color: var(--secondary);
+    color: var(--text-secondary);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@
 /*footer*/
 .footer {
     height: 579px;
-    background-color: var(--primary);
+    background-color: var(--text-main);
     background-image: url("../images/Footer.png");
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    color: var(--secondary);
+    color: var(--text-secondary);
 }
 
 .footer-logo {
@@ -166,7 +166,7 @@
     .header {
         width: 1024px;
         height: 137px;
-        background-color: var(--primary);
+        background-color: var(--text-main);
     }
 
     .hero .header .logo {
@@ -293,7 +293,7 @@
     .atmosphere {
         height: auto;
         background-image: url("../images/Dining Table-mobile.png");
-        background-color: var(--primary);
+        background-color: var(--text-main);
         background-repeat: no-repeat;
         background-size: 100% auto;
         padding: 440px 0 60px;
