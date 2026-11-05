@@ -39,6 +39,10 @@
     line-height: 70px;
 }
 
+.food-tablet {
+    display: none;
+}
+
 .food-list {
     display: flex;
     justify-content: center;
@@ -150,36 +154,19 @@
         padding: 60px 0 60px;
     }
 
+    .food-desktop {
+        display: none;
+    }
+
+    .food-tablet {
+        display: block;
+    }
+
+    .C-Specials img {
+        width: 400px;
+    }
+
     /*image settings*/
-    .Dessert .food-img,
-    .C-Specials .food-img,
-    .Seasonal .food-img {
-        width: 100%;
-        height: auto;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .C-Specials .food-img {
-        background-image: url("../images/Chef-Specials-T.png");
-    }
-
-    .Dessert .food-img {
-        background-image: url("../images/Dessert-T.png");
-    }
-
-    .Seasonal .food-img {
-        background-image: url("../images/Seasonal-T.png");
-    }
-
-    .food-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 80px;
-        padding: 60px;
-    }
-
     .C-Specials {
         order: 1;
     }
@@ -190,33 +177,6 @@
 
     .Seasonal {
         order: 3;
-    }
-
-    .Dessert,
-    .C-Specials,
-    .Seasonal {
-        width: 100%;
-        gap: 0;
-    }
-
-    /* Chef Specials 的字体大小 */
-    .C-Specials h3 {
-        font-family: var(--font-heading);
-        font-size: 30px;
-        line-height: 36px;
-    }
-
-    .Dessert h4,
-    .C-Specials h3,
-    .Seasonal h4 {
-        margin: 20px 0 16px;
-    }
-
-    /*btn 的  margin */
-    .Dessert .btn,
-    .C-Specials .btn,
-    .Seasonal .btn {
-        margin: 0 0 30px;
     }
 
     .atmosphere {
