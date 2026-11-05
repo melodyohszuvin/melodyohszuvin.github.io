@@ -69,13 +69,6 @@ h5 {
 }
 
 /*Section-Title*/
-section-title {
-    font-family: var(--font-serif);
-    font-style: var(--style-italic);
-    font-size: 46px;
-    line-height: 55.2px;
-}
-
 .section-title {
     font-family: var(--font-serif);
     font-style: var(--style-italic);
@@ -96,7 +89,7 @@ p {
     line-height: 33.3px;
 }
 
-eyebrown-heading {
+sub-title {
     font-family: var(--font-body);
     font-size: 15px;
     line-height: 18px;
@@ -199,7 +192,7 @@ a {
 }
 
 /*Mobile Screen Typography Setting*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
 
     /*Hero-Title*/
     h1 {
@@ -236,17 +229,12 @@ a {
         line-height: 52px;
     }
 
-    .section-title {
-        font-size: 46px;
-        line-height: 55.2px;
-    }
-
     menu-title {
         font-size: 38px;
         line-height: 45.9px;
     }
 
-    eyebrown-heading {
+    sub-title {
         font-size: 15px;
         line-height: 18px;
         letter-spacing: 1.4px;

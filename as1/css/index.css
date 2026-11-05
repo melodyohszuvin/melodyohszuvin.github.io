@@ -44,6 +44,10 @@
     color: var(--text-secondary);
 }
 
+.hero .header .menu-bar img {
+    filter: invert(1);
+}
+
 .hero .header .bar {
     display: none;
 }
@@ -175,6 +179,10 @@
 
     .hero .header .menu-bar {
         display: none;
+    }
+
+    .hero .header .bar {
+        display: block;
     }
 
     .hero {
