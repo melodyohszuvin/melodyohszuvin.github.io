@@ -84,12 +84,30 @@
     padding: 60px;
 }
 
-.food {
+.Dessert,
+.C-Specials,
+.Seasonal {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     text-align: center;
+}
+
+.Dessert img,
+.C-Specials img,
+.Seasonal img {
+    height: auto;
+    object-fit: cover;
+}
+
+.Dessert img,
+.Seasonal img {
+    width: 320px;
+}
+
+.C-Specials img {
+    width: 400px;
 }
 
 /*Atmosphere*/
