@@ -146,6 +146,7 @@
         margin: 0;
     }
 
+    /*Popular*/
     .popular {
         padding: 0;
     }
@@ -162,10 +163,6 @@
         display: block;
     }
 
-    .C-Specials img {
-        width: 400px;
-    }
-
     /*image settings*/
     .C-Specials {
         order: 1;
@@ -179,6 +176,35 @@
         order: 3;
     }
 
+    .food-list {
+        align-items: stretch;
+    }
+
+    .food-list h3 {
+        margin: 20px 0 16px;
+        padding: 0;
+        line-height: 1.2;
+    }
+
+    .food-list .btn {
+        margin-top: auto;
+    }
+
+    .C-Specials img,
+    .Dessert img,
+    .Seasonal img {
+        width: 250px;
+        object-fit: cover;
+    }
+
+    .C-Specials h3,
+    .Dessert h4,
+    .Seasonal h4 {
+        font-size: 32px;
+        margin: 20px 0 16px;
+    }
+
+    /*atmosphere*/
     .atmosphere {
         height: 592px;
         background-image: url("../images/Dining\ Table-tablet.png");
