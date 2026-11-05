@@ -152,41 +152,55 @@
 
     .food-list {
         flex-direction: column;
+        align-items: stretch;
         gap: 40px;
         padding: 0;
     }
 
-    .food-list2 {
-        order: -1;
+    .C-Specials {
+        order: 1;
     }
 
-    .food-item,
-    .food-item picture,
-    .food-item img {
+    .Dessert {
+        order: 2;
+    }
+
+    .Seasonal {
+        order: 3;
+    }
+
+    .Dessert,
+    .C-Specials,
+    .Seasonal {
         width: 100%;
+        gap: 0;
     }
 
-    /*Ceft Specials 的字体大小*/
-    .food-list2 .food-item h3 {
+    .Dessert img,
+    .C-Specials img,
+    .Seasonal img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Chef Specials 的字体大小 */
+    .C-Specials h3 {
         font-family: var(--font-heading);
         font-size: 30px;
         line-height: 36px;
     }
 
-    /*Ceft Specials 的图片大小*/
-    .food-list1,
-    .food-list2,
-    .food-list3,
-    .food-item img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 10;
-        object-fit: cover;
-        object-position: center 60%;
+    .Dessert h4,
+    .C-Specials h3,
+    .Seasonal h4 {
+        margin: 20px 0 16px;
     }
 
-    /*Seasonal btn 的  margin */
-    .food-item .btn {
+    /*btn 的  margin */
+    .Dessert .btn,
+    .C-Specials .btn,
+    .Seasonal .btn {
         margin: 0 0 30px;
     }
 
