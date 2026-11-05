@@ -103,10 +103,6 @@ button {
     letter-spacing: 1px;
 }
 
-a:hover {
-    opacity: 60%;
-}
-
 img {
     max-width: 100%;
     display: block;
@@ -177,7 +173,6 @@ a {
     padding: 20px 50px;
 }
 
-/*header*/
 .logo {
     display: flex;
     align-items: center;
@@ -191,6 +186,7 @@ a {
 
 .header .menu-bar img {
     width: 20px;
+    filter: brightness(0) invert(1);
 }
 
 .header .menu-bar {
@@ -207,34 +203,18 @@ a {
     letter-spacing: 1px;
 }
 
-.hero {
-    min-height: 730px;
-    background-color: var(--text-main);
-    background-image: url("../images/Environment.jpg");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 55% 100%;
-    background-repeat: no-repeat;
+.header .menu-bar a {
+    color: var(--nav-text);
+    transition: color 0.3s;
 }
 
-.hero-banner {
-    max-width: 600px;
-    padding: 80px 0 0 100px;
+.header .menu-bar a.active,
+.header .menu-bar a:hover {
     color: var(--text-secondary);
-}
-
-.hero .header .menu-bar img {
-    filter: invert(1);
 }
 
 .hero .header .bar {
     display: none;
-}
-
-.nav {
-    display: flex;
-    gap: 20px;
-    list-style: none;
 }
 
 /*Footer Setting*/
@@ -280,6 +260,10 @@ a {
     line-height: 24px;
 }
 
+.footer .footer-content .social-m a:hover {
+    opacity: 60%;
+}
+
 .social-m {
     display: flex;
     justify-content: center;
@@ -290,6 +274,13 @@ a {
 .social a {
     display: flex;
     border-radius: 50%;
+}
+
+/*nav*/
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 
 /*Mobile Screen Typography Setting*/
