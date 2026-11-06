@@ -305,6 +305,55 @@ a {
     }
 
     h4 {
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    /*Sub-Object-Title*/
+    h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /*Section-Title*/
+    section-title {
+        font-size: 43px;
+        line-height: 52px;
+    }
+
+    menu-title {
+        font-size: 38px;
+        line-height: 45.9px;
+    }
+
+    sub-title {
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 1.4px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    /*Hero-Title*/
+    h1 {
+        font-size: 84px;
+        line-height: 101.9px;
+    }
+
+    /*Title*/
+    h2 {
+        font-size: 63px;
+        line-height: 76.4px;
+    }
+
+    /*Sub-Title*/
+    h3 {
+        font-size: 51px;
+        line-height: 81.3px;
+    }
+
+    h4 {
         font-size: 30px;
         line-height: 36px;
     }

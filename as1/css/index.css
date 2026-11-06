@@ -177,7 +177,18 @@
     }
 
     .food-list {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 0;
         align-items: stretch;
+    }
+
+    .C-Specials img,
+    .Dessert img,
+    .Seasonal img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
     .food-list h3 {
@@ -193,15 +204,12 @@
     .C-Specials img,
     .Dessert img,
     .Seasonal img {
-        width: 250px;
+        width: 1500px;
         object-fit: cover;
     }
 
-    .C-Specials h3,
-    .Dessert h4,
-    .Seasonal h4 {
-        font-size: 32px;
-        margin: 20px 0 16px;
+    .C-Specials h3 {
+        font-size: 40px;
     }
 
     /*atmosphere*/
