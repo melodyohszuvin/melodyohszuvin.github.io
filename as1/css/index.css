@@ -232,7 +232,7 @@
 
     .hero-banner {
         max-width: 100%;
-        padding: 490px 30px 65px 90px;
+        padding: 520px 30px 65px 90px;
     }
 
     .hero-banner p {
@@ -275,14 +275,12 @@
         background-color: var(--text-main);
         background-repeat: no-repeat;
         background-size: 100% auto;
-        padding: 400px 0 60px;
+        padding: 500px 0 60px;
         text-align: center;
-        padding: 450px 0 10px;
     }
 
     .atmosphere-text {
         padding: 0px 30px 25px 30px;
-        max-width: 100%;
         margin: 0 auto;
     }
 
