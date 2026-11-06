@@ -1,3 +1,8 @@
+/*header*/
+.header {
+    background-color: #00000080;
+}
+
 /*Hero*/
 .hero {
     min-height: 730px;
@@ -5,6 +10,11 @@
     background-image: url("../images/restaurant-best-tb.png");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 55% 100%;
-    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.hero-banner {
+    max-width: 600px;
+    padding: 80px 0 0 100px;
+    color: var(--text-secondary);
 }
