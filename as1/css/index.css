@@ -227,36 +227,46 @@
 @media screen and (max-width: 640px) {
     .header {
         font-size: 40px;
-        line-height: 150;
-        width: 640px;
-        height: 137px;
+        width: 100%;
     }
 
     .hero-banner {
         max-width: 100%;
-        padding: 560px 30px 100px 90px;
-    }
-
-    .hero-banner h1 {
-        font-size: 84px;
-        line-height: 101.9px;
+        padding: 490px 30px 65px 90px;
     }
 
     .hero-banner p {
         max-width: 100%;
-        font-size: 19px;
+        font-size: 15px;
         line-height: 1.6;
     }
 
     /*Popular*/
     .popular h2 {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
-    .popular .section-title span {
+    .popular .head {
+        padding: 30px 0 30px;
+    }
+
+    .food-list h3,
+    .C-Specials h3,
+    .food-list h4 {
+        margin: 8px 0 0;
+        padding: 0;
+        line-height: 1;
+        font-size: 30px;
+    }
+
+    .food-list .btn {
+        font-size: 10px;
+    }
+
+    .popular .head .section-title span {
         display: block;
-        font-size: 43px;
-        line-height: 52px;
+        font-size: 30px;
+        line-height: 45px;
     }
 
     .atmosphere {
@@ -265,24 +275,15 @@
         background-color: var(--text-main);
         background-repeat: no-repeat;
         background-size: 100% auto;
-        padding: 440px 0 60px;
+        padding: 400px 0 60px;
         text-align: center;
+        padding: 450px 0 10px;
     }
 
     .atmosphere-text {
-        padding: 0 30px;
+        padding: 0px 30px 25px 30px;
         max-width: 100%;
         margin: 0 auto;
-    }
-
-    .atmosphere-text h2 {
-        font-size: 63px;
-        line-height: 76.4px;
-    }
-
-    .atmosphere-text p {
-        font-size: 16px;
-        line-height: 1.6;
     }
 
     .footer {
@@ -292,10 +293,5 @@
         background-image: url("../images/envir-tablet.png");
         background-repeat: no-repeat;
         background-size: 100% auto;
-    }
-
-    .footer p {
-        font-size: 19px;
-        line-height: 33.3px;
     }
 }

@@ -41,31 +41,26 @@ h5 {
 
 h1 {
     font-size: 95px;
-    line-height: 114px;
 }
 
 /*Title*/
 h2 {
     font-size: 70px;
-    line-height: 84px;
 }
 
 /*Sub-Title*/
 h3 {
     font-size: 56px;
-    line-height: 64px;
 }
 
 /*Object-Title*/
 h4 {
     font-size: 30px;
-    line-height: 36px;
 }
 
 /*Sub-Object-Title*/
 h5 {
     font-size: 25px;
-    line-height: 30px;
 }
 
 /*Section-Title*/
@@ -289,46 +284,38 @@ a {
     /*Hero-Title*/
     h1 {
         font-size: 84px;
-        line-height: 101.9px;
     }
 
     /*Title*/
     h2 {
         font-size: 63px;
-        line-height: 76.4px;
     }
 
     /*Sub-Title*/
     h3 {
         font-size: 51px;
-        line-height: 81.3px;
     }
 
     h4 {
-        font-size: 0px;
-        line-height: 36px;
+        font-size: 40px;
     }
 
     /*Sub-Object-Title*/
     h5 {
         font-size: 25px;
-        line-height: 30px;
     }
 
     /*Section-Title*/
     section-title {
         font-size: 43px;
-        line-height: 52px;
     }
 
     menu-title {
         font-size: 38px;
-        line-height: 45.9px;
     }
 
     sub-title {
         font-size: 15px;
-        line-height: 18px;
         letter-spacing: 1.4px;
     }
 }
@@ -337,47 +324,45 @@ a {
 
     /*Hero-Title*/
     h1 {
-        font-size: 84px;
-        line-height: 101.9px;
+        font-size: 60px;
     }
 
     /*Title*/
     h2 {
-        font-size: 63px;
-        line-height: 76.4px;
+        font-size: 50px;
     }
 
     /*Sub-Title*/
     h3 {
-        font-size: 51px;
-        line-height: 81.3px;
+        font-size: 45px;
     }
 
     h4 {
         font-size: 30px;
-        line-height: 36px;
     }
 
     /*Sub-Object-Title*/
     h5 {
         font-size: 25px;
-        line-height: 30px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
     }
 
     /*Section-Title*/
     section-title {
-        font-size: 43px;
-        line-height: 52px;
+        font-size: 35px;
     }
 
     menu-title {
-        font-size: 38px;
+        font-size: 28px;
         line-height: 45.9px;
     }
 
     sub-title {
-        font-size: 15px;
-        line-height: 18px;
+        font-size: 10px;
         letter-spacing: 1.4px;
     }
 }
