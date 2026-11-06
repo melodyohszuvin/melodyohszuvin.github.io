@@ -191,14 +191,22 @@
         object-fit: cover;
     }
 
-    .food-list h3 {
-        margin: 20px 0 16px;
+    .food-list h3,
+    .C-Specials h3,
+    .food-list h4 {
+        margin: 8px 0 0;
         padding: 0;
-        line-height: 1.2;
+        line-height: 1;
+        font-size: 40px;
+    }
+
+    .food-list>div {
+        /* button和下面图片的距离 */
+        padding-bottom: 40px;
     }
 
     .food-list .btn {
-        margin-top: auto;
+        margin-top: 12px;
     }
 
     .C-Specials img,
@@ -206,10 +214,6 @@
     .Seasonal img {
         width: 1500px;
         object-fit: cover;
-    }
-
-    .C-Specials h3 {
-        font-size: 40px;
     }
 
     /*atmosphere*/
