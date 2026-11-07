@@ -140,4 +140,47 @@
         height: 520px;
         object-fit: cover;
     }
+
+    /*Gallery*/
+    .gallery-images img {
+        width: 50%;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .gallery {
+        padding: 40px 30px 100px;
+    }
+
+    .g1 {
+        order: 1;
+    }
+
+    .g2 {
+        order: 2;
+    }
+
+    .g5 {
+        order: 3;
+    }
+
+    .g6 {
+        order: 4;
+    }
+
+    .g3 {
+        order: 5;
+    }
+
+    .g4 {
+        order: 6;
+    }
+
+    .g7 {
+        order: 7;
+    }
+
+    .g8 {
+        order: 8;
+    }
 }
