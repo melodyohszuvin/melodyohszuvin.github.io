@@ -275,4 +275,35 @@
         height: auto;
         margin-bottom: -1px;
     }
+
+    .pp-about-us h1 {
+        max-width: 330px;
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+
+    .pp-name>div {
+        width: 100%;
+        max-width: 270px;
+        padding: 50px 15px;
+    }
+
+    .pp-name h5 {
+        margin-bottom: 20px;
+    }
+
+    .pp-name p {
+
+        margin-bottom: 25px;
+    }
+
+    .pp-name img {
+        width: 130px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pp-name {
+        gap: 40px;
+    }
 }
