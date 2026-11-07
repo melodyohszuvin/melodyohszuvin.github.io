@@ -222,6 +222,10 @@
 }
 
 @media screen and (max-width: 640px) {
+    .header {
+        background-color: #000;
+    }
+
     .hero-banner h1 {
         max-width: 320px;
     }
@@ -305,5 +309,13 @@
 
     .pp-name {
         gap: 40px;
+    }
+
+    .footer {
+        background-image: url("../images/restaurant-best-tb-t.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-color: transparent;
+        background-blend-mode: multiply;
     }
 }

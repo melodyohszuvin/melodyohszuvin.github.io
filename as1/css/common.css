@@ -392,4 +392,12 @@ a {
         font-size: 15px;
         letter-spacing: 1.4px;
     }
+
+    .footer {
+        width: 100%;
+        height: auto;
+        padding: 80px 30px 100px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
 }
