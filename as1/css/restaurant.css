@@ -218,6 +218,10 @@
 }
 
 @media screen and (max-width: 640px) {
+    .hero-banner h1 {
+        max-width: 320px;
+    }
+
     .elegance-section h1 {
         max-width: 300px;
         margin-left: auto;
@@ -227,5 +231,14 @@
 
     .elegance-section {
         padding: 40px 0;
+    }
+
+    .elegance-tablet,
+    .elegance-tablet.large {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
     }
 }
