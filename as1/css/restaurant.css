@@ -252,6 +252,10 @@
         background-repeat: no-repeat;
     }
 
+    .gallery {
+        padding: 40px 0 10px;
+    }
+
     .gallery p {
         max-width: 330px;
         margin: 0 auto 30px;
@@ -261,7 +265,14 @@
         display: none;
     }
 
-    .gallery img {
+    .gallery-img-mobile {
         display: block;
+    }
+
+    .gallery-img-mobile img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: -1px;
     }
 }
