@@ -183,4 +183,35 @@
     .g8 {
         order: 8;
     }
+
+    .gallery {
+        padding: 0 30px 10px;
+    }
+
+    .pp-name {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .pp-name>div {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .pp-name p {
+        line-height: 1.5;
+    }
+
+    .pp-about-us {
+        padding: 80px 0;
+    }
+
+    .pp-name>div {
+        padding: 50px 15px;
+    }
+
+    .pp-name img {
+        margin: 0 auto;
+    }
 }
