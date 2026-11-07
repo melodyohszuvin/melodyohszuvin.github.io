@@ -63,3 +63,35 @@
     /* 一行4个=100%÷4=25*/
     height: 280px;
 }
+
+/*pp-name*/
+.pp-about-us {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.pp-about-us h1 {
+    margin-bottom: 40px;
+}
+
+.pp-name {
+    display: flex;
+    justify-content: center;
+    color: var(--text-secondary);
+    gap: 25px;
+}
+
+.pp-name>div {
+    width: 290px;
+    background-color: #000;
+    padding: 20px 15px;
+}
+
+.pp-name h5,
+.pp-name p {
+    margin-bottom: 30px;
+}
+
+.pp-name p {
+    font-size: 12px;
+}
