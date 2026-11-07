@@ -117,10 +117,14 @@
         padding: 110px 40px 80px 40px;
     }
 
+    .hero-banner h1 {
+        max-width: 420px;
+    }
+
     .elegance-images {
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 70px;
     }
 
     .elegance-desktop,
@@ -132,8 +136,8 @@
     .elegance-tablet.large {
         display: block;
         width: 100%;
-        max-width: 500px;
-        height: 500px;
+        max-width: 520px;
+        height: 520px;
         object-fit: cover;
     }
 }
