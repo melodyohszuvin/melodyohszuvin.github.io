@@ -104,6 +104,20 @@
     }
 
     .hero-banner {
-        padding: 160px 40px 80px 40px;
+        padding: 110px 40px 80px 40px;
+    }
+
+    .elegance-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    img.outside,
+    img.inside {
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+        object-fit: cover;
     }
 }
