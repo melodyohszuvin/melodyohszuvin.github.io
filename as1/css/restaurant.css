@@ -40,3 +40,26 @@
 .inside img {
     width: 400px;
 }
+
+/*Gallery*/
+.gallery {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0 100px;
+}
+
+.gallery p {
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 25%;
+    /* 一行4个=100%÷4=25*/
+    height: 280px;
+}
