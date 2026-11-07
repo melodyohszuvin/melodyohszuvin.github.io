@@ -95,3 +95,15 @@
 .pp-name p {
     font-size: 12px;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        background-image: url("../images/restaurant-best-tb-t.jpg");
+        background-size: 100% auto;
+        background-position: center 137px;
+    }
+
+    .hero-banner {
+        padding: 160px 40px 80px 40px;
+    }
+}

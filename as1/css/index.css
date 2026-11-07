@@ -101,33 +101,11 @@
 
 /*Tablet Screen*/
 @media screen and (max-width: 1024px) {
-    body {
-        overflow-x: hidden;
-    }
-
     .header {
-        width: 1024px;
-        height: 137px;
         background-color: var(--text-main);
     }
 
-    .hero .header .logo {
-        margin-left: 20px;
-    }
-
-    .hero .header .menu-bar {
-        display: none;
-    }
-
-    .hero .header .bar {
-        display: block;
-    }
-
     .hero {
-        height: auto;
-        background-repeat: no-repeat;
-        background-position: center 137px;
-        background-size: 100% auto;
         background-image: url("../images/envir-tablet.png");
     }
 

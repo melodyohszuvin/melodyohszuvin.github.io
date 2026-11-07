@@ -280,6 +280,33 @@ a {
 
 /*Mobile Screen Typography Setting*/
 @media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 1024px;
+        height: 137px;
+    }
+
+    .hero .header .logo {
+        margin-left: 20px;
+    }
+
+    .hero .header .menu-bar {
+        display: none;
+    }
+
+    .hero .header .bar {
+        display: block;
+    }
+
+    .hero {
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center 137px;
+        background-size: 100% auto;
+    }
 
     /*Hero-Title*/
     h1 {
