@@ -33,12 +33,22 @@
     gap: 20px;
 }
 
-.outside img {
+.elegance-desktop {
     width: 320px;
 }
 
-.inside img {
+.elegance-desktop.large {
     width: 400px;
+}
+
+.elegance-desktop,
+.elegance-desktop.large {
+    display: block;
+}
+
+.elegance-tablet,
+.elegance-tablet.large {
+    display: none;
 }
 
 /*Gallery*/
@@ -113,8 +123,14 @@
         gap: 25px;
     }
 
-    img.outside,
-    img.inside {
+    .elegance-desktop,
+    .elegance-desktop.large {
+        display: none;
+    }
+
+    .elegance-tablet,
+    .elegance-tablet.large {
+        display: block;
         width: 100%;
         max-width: 500px;
         height: 500px;
