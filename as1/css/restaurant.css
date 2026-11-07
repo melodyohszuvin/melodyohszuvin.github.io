@@ -214,4 +214,18 @@
     .pp-name img {
         margin: 0 auto;
     }
+
+}
+
+@media screen and (max-width: 640px) {
+    .elegance-section h1 {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .elegance-section {
+        padding: 40px 0;
+    }
 }
