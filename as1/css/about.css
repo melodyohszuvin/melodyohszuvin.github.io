@@ -159,6 +159,10 @@
         padding-bottom: 50px;
     }
 
+    .culinary-images .appertiser-m {
+        display: none;
+    }
+
     /*commitment*/
     .commitment {
         display: block;
@@ -230,5 +234,24 @@
 
     .hero-banner h1 {
         font-size: 84px;
+    }
+
+    .culinary-philosophy .culinary-images .appertiser {
+        display: none;
+    }
+
+    .culinary-images .appertiser-m {
+        display: block;
+    }
+
+    .culinary-philosophy .culinary-images .salad {
+        display: none;
+    }
+
+    .culinary-images img {
+        width: 100%;
+        /* 占满整行 */
+        height: auto;
+        /* 高度自动，保持原图比例 */
     }
 }
