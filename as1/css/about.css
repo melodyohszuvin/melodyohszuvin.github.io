@@ -281,6 +281,31 @@
 
     .commitment-text p {
         max-width: 560px;
-        font-size: 18px;
+    }
+
+    /*Achievementss*/
+    .archievements {
+        min-height: auto;
+        padding: 60px 30px 60px;
+    }
+
+    .archievement-text p {
+        padding: 0 10px;
+    }
+
+    .archievement-award-imges {
+        gap: 40px;
+        margin-top: 40px;
+    }
+
+    .award span {
+        width: 51px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+    }
+
+    .award img {
+        height: 180px;
+        width: auto;
     }
 }
