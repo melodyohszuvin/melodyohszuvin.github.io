@@ -128,3 +128,23 @@
     height: 300px;
     width: auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        min-height: auto;
+        height: auto;
+        background-image: url("../images/about-us-color-t.png");
+        background-size: 100% auto;
+        background-position: center 137px;
+    }
+
+    .hero-banner {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 757px;
+        padding: 90px 120px 100px;
+        box-sizing: border-box;
+        background-color: var(--text-main);
+        color: var(--text-secondary);
+    }
+}
