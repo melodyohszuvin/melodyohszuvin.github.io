@@ -15,3 +15,30 @@
     color: var(--text-secondary);
     padding: 130px 0 0;
 }
+
+.culinary-philosophy {
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.culinary-philosophy h1 {
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.culinary-images {
+    display: flex;
+    gap: 5px;
+}
+
+.culinary-images img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.culinary-philosophy p {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    line-height: 1.6;
+}
