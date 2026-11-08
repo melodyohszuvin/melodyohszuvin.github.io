@@ -229,14 +229,6 @@
     .pp-name img {
         margin: 0 auto;
     }
-
-    .footer {
-        background-image: url("../images/restaurant-best-tb-t.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-color: transparent;
-        background-blend-mode: multiply;
-    }
 }
 
 @media screen and (max-width: 640px) {
@@ -327,13 +319,5 @@
 
     .pp-name {
         gap: 40px;
-    }
-
-    .footer {
-        background-image: url("../images/restaurant-best-tb-t.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-color: transparent;
-        background-blend-mode: multiply;
     }
 }

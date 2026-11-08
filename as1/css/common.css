@@ -394,6 +394,7 @@ a {
     }
 
     .footer {
+        background-image: url("../images/envir-tablet.png");
         width: 100%;
         height: auto;
         padding: 80px 30px 100px;
