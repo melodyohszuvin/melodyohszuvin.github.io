@@ -73,3 +73,8 @@
     width: 50%;
     height: 100%;
 }
+
+/*Archievement*/
+.archievements {
+    background-image: url("../images/about-us-bnw.jpg");
+}
