@@ -158,4 +158,30 @@
         padding-bottom: 50px;
     }
 
+    .commitment {
+        display: block;
+        min-height: 752px;
+        background-image: url("../images/gathering-t.png");
+    }
+
+    .commitment-images {
+        display: none;
+    }
+
+    .commitment-text {
+        width: 100%;
+        min-height: 700px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .commitment-text h2 {
+        font-size: 70px;
+    }
+
+    .commitment-text p {
+        max-width: 680px;
+        font-size: 19px;
+    }
+
 }
