@@ -16,6 +16,7 @@
     padding: 130px 0 0;
 }
 
+/*Philosophy*/
 .culinary-philosophy {
     padding: 50px 10px;
     text-align: center;
@@ -41,4 +42,34 @@
     max-width: 1000px;
     margin: 40px auto 0;
     line-height: 1.6;
+}
+
+/*Commitment*/
+.commitment {
+    display: flex;
+    background-color: var(--text-main);
+    min-height: 757px;
+}
+
+.commitment-text {
+    width: 35%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-secondary);
+}
+
+.commitment-text p {
+    margin-top: 40px;
+}
+
+.commitment-images {
+    width: 65%;
+    display: flex;
+}
+
+.commitment-images img {
+    width: 50%;
+    height: 100%;
 }
