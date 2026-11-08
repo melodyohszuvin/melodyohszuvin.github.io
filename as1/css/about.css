@@ -217,3 +217,18 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .hero {
+        background-image: url("../images/about-us-color-m.png");
+    }
+
+    .hero-banner {
+        margin-top: 300px;
+        padding: 40px 40px 50px;
+    }
+
+    .hero-banner h1 {
+        font-size: 84px;
+    }
+}
