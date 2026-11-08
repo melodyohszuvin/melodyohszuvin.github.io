@@ -147,4 +147,15 @@
         background-color: var(--text-main);
         color: var(--text-secondary);
     }
+
+    .culinary-philosophy {
+        padding: 50px 0 10px;
+    }
+
+    .culinary-philosophy p {
+        max-width: 750px;
+        margin: 50px auto 0;
+        padding-bottom: 50px;
+    }
+
 }
