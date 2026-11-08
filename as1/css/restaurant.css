@@ -156,6 +156,17 @@
         padding: 40px 30px 100px;
     }
 
+    .gallery-images {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .gallery-img-mobile {
+        display: none;
+    }
+
     .g1 {
         order: 1;
     }
@@ -219,6 +230,13 @@
         margin: 0 auto;
     }
 
+    .footer {
+        background-image: url("../images/restaurant-best-tb-t.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-color: transparent;
+        background-blend-mode: multiply;
+    }
 }
 
 @media screen and (max-width: 640px) {
