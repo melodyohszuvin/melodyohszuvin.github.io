@@ -44,6 +44,10 @@
     line-height: 1.6;
 }
 
+.culinary-images .appertiser-m {
+    display: none;
+}
+
 /*Commitment*/
 .commitment {
     display: flex;
