@@ -262,4 +262,25 @@
         max-width: 510px;
         margin: 30px auto 30px;
     }
+
+    .commitment {
+        background-image: url("../images/gathering-m.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 490px;
+    }
+
+    .commitment .commitment-images {
+        display: none;
+    }
+
+    .commitment-text h2 {
+        font-size: 63px;
+    }
+
+    .commitment-text p {
+        max-width: 560px;
+        font-size: 18px;
+    }
 }

@@ -228,7 +228,7 @@
 
 @media screen and (max-width: 640px) {
     .header {
-        background-color: #000;
+        background-color: var(--text-main);
     }
 
     .hero-banner h1 {
