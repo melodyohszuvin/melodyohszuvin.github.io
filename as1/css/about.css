@@ -48,7 +48,7 @@
 .commitment {
     display: flex;
     background-color: var(--text-main);
-    min-height: 757px;
+    min-height: 750px;
 }
 
 .commitment-text {
@@ -80,7 +80,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 680px;
+    min-height: 1024px;
     padding: 100px 50px 60px;
     text-align: center;
     color: var(--text-secondary);
@@ -100,4 +100,31 @@
 .award span {
     font-family: var(--font-heading);
     border-bottom: 1px solid var(--border-line);
+}
+
+/*Award Img*/
+.archievement-award-imges {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award span {
+    font-family: var(--font-heading);
+    font-size: 56px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-line);
+}
+
+.award img {
+    height: 300px;
+    width: auto;
 }
