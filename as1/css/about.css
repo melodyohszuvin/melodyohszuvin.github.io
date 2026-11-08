@@ -77,4 +77,27 @@
 /*Archievement*/
 .archievements {
     background-image: url("../images/about-us-bnw.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 680px;
+    padding: 100px 50px 60px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.archievement-text p {
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+
+.archievement-award-imges {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.award span {
+    font-family: var(--font-heading);
+    border-bottom: 1px solid var(--border-line);
 }
