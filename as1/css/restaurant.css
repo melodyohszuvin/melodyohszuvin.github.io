@@ -5,12 +5,7 @@
 
 /*Hero*/
 .hero {
-    min-height: 730px;
-    background-color: var(--text-main);
     background-image: url("../images/restaurant-best-tb.png");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 50% 100%;
 }
 
 .hero-banner {

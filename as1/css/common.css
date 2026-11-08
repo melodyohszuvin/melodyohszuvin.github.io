@@ -161,6 +161,16 @@ a {
 
 /* === Sitewide Elements  === */
 /*Header Setting*/
+/*Hero*/
+.hero {
+    min-height: 730px;
+    background-color: var(--text-main);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 55% 100%;
+    background-repeat: no-repeat;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
