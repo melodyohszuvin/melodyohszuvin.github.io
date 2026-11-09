@@ -119,6 +119,51 @@
     width: 200px;
 }
 
+/*img sizd*/
+.dessert-couples img {
+    width: 800px;
+}
+
+.set-menu img {
+    width: 600px;
+}
+
+.sparkling-wine img {
+    width: 500px;
+}
+
+.dessert-couples,
+.sparkling-wine {
+    position: relative;
+    z-index: 1;
+}
+
+.set-menu {
+    z-index: 2;
+}
+
+/*img direction*/
+.dessert-couples {
+    margin-left: 10%;
+}
+
+.set-menu {
+    margin-left: 28%;
+    margin-top: -60px;
+}
+
+.sparkling-wine {
+    margin-left: 22%;
+    margin-top: -60px;
+}
+
+.dessert-couples,
+.set-menu,
+.sparkling-wine {
+    display: flex;
+    align-items: center;
+}
+
 /*discount footer*/
 .discount-footer {
     text-align: center;
@@ -128,7 +173,6 @@
 .discount-footer p {
     margin-bottom: 20px;
     font-family: var(--font-body);
-
 }
 
 .discount-footer .btn {
