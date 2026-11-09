@@ -41,3 +41,23 @@
 .btn {
     border-radius: 0;
 }
+
+/*Seasonal Special*/
+.sesonal-specials {
+    padding: 70px 80px;
+    background-color: var(--text-secondary);
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.special-menu {
+    display: flex;
+    padding: 40px;
+}
+
+.special-menu img {
+    width: 300px;
+}
