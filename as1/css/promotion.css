@@ -1,0 +1,21 @@
+/*Hero*/
+.hero {
+    background-image: url("../images/Golden-Mocktail.png");
+    min-height: 730px;
+    background-color: var(--text-main);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 55% 100%;
+}
+
+.hero-banner {
+    margin-left: 55%;
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 130px 0 0;
+}
+
+.btn {
+    border-radius: 0;
+}
