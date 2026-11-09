@@ -191,4 +191,18 @@
     background-image: url("../images/Membership.jpg");
     color: var(--text-secondary);
     min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.membership h2 {
+    margin-bottom: 20px;
+}
+
+.membership p {
+    max-width: 850px;
+    line-height: 1.6;
 }
