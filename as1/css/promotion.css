@@ -185,3 +185,10 @@
     font-family: var(--font-body);
     border: 1px solid var(--border-line);
 }
+
+/*Membership*/
+.membership {
+    background-image: url("../images/Membership.jpg");
+    color: var(--text-secondary);
+    min-height: 360px;
+}
