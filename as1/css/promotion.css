@@ -416,4 +416,20 @@
     .hero-banner .sub-title {
         max-width: 440px;
     }
+
+    .section-title {
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    .sesonal-specials .signature-steak p,
+    .sesonal-specials .garlic-butter p {
+        max-width: 500px;
+    }
+
+    .dining-collection p,
+    .membership p {
+        max-width: 450px;
+    }
+
 }
