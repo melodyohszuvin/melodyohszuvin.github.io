@@ -337,4 +337,33 @@
     .set-menu img {
         order: -1;
     }
+
+    /*membership*/
+    .membership-price {
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 40px 70px;
+    }
+
+    .classic,
+    .prestige,
+    .elite {
+        width: 270px;
+        min-height: 330px;
+        padding: 30px 20px;
+    }
+
+    .membership-price h4 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .membership-price sub-title {
+        margin-bottom: 20px;
+    }
+
+    .benefit {
+        font-size: 14px;
+        gap: 12px;
+    }
 }
