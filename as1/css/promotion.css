@@ -286,7 +286,7 @@
 
     .hero-banner {
         margin-left: 0;
-        padding: 1010px 40px 110px 150px;
+        padding: 1030px 40px 110px 150px;
     }
 
     .hero-banner h1 {
@@ -354,7 +354,7 @@
     }
 
     .membership-price h4 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -388,15 +388,32 @@
     .elite {
         width: 400px;
         min-height: 455px;
+        background-size: cover;
+        background-position: center;
     }
 
     .membership-price {
-        margin: 50px;
+        align-items: center;
     }
 
     .membership-price .classic .classic-benefit span,
     .membership-price .prestige .prestige-benefit span,
     .membership-price .elite .elite-benefit span {
         font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero-banner {
+        padding: 670px 0 110px 45px;
+    }
+
+    .hero-banner h1 {
+        max-width: none;
+        font-size: 63px;
+    }
+
+    .hero-banner .sub-title {
+        max-width: 440px;
     }
 }
