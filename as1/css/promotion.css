@@ -432,4 +432,37 @@
         max-width: 450px;
     }
 
+    .membership-price {
+        justify-content: center;
+        margin: 90px 70px;
+    }
+
+    .classic,
+    .prestige,
+    .elite {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        min-height: 480px;
+        padding: 0;
+    }
+
+    .classic-benefit,
+    .prestige-benefit,
+    .elite-benefit {
+        width: 240px;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .classic .btn,
+    .prestige .btn,
+    .elite .btn {
+        margin-top: 20px;
+    }
+
+    .membership-price .prestige span {
+        white-space: nowrap;
+    }
 }
