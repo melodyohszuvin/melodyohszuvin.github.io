@@ -208,6 +208,13 @@
 }
 
 /*Membership Benefit*/
+.membership-price {
+    display: flex;
+    gap: 90px;
+    margin: 40px 0 70px;
+    justify-content: center;
+}
+
 .classic,
 .prestige,
 .elite {
