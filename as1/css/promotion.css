@@ -1,19 +1,41 @@
 /*Hero*/
+.header {
+    background-color: var(--text-main);
+}
+
 .hero {
     background-image: url("../images/Golden-Mocktail.png");
     min-height: 730px;
     background-color: var(--text-main);
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 55% 100%;
+    background-size: 55% auto;
+    background-position: left 120px;
 }
 
 .hero-banner {
     margin-left: 55%;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     color: var(--text-secondary);
-    padding: 130px 0 0;
+    padding: 120px 60px 0 90px;
+}
+
+.hero-banner sub-title {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero-banner h1 {
+    line-height: 1.1;
+}
+
+.hero-banner .sub-title {
+    max-width: 330px;
+    margin-bottom: 15px;
+}
+
+.hero-banner p {
+    margin-bottom: 30px;
 }
 
 .btn {
