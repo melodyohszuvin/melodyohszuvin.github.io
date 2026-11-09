@@ -88,3 +88,10 @@
 .special-menu .btn {
     font-family: var(--font-body);
 }
+
+/*Dining Collection*/
+.dining-collection {
+    background-image: url("../images/food\ and\ drink.jpg");
+    color: var(--text-secondary);
+    min-height: 490px;
+}
