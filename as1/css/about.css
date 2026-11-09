@@ -16,6 +16,12 @@
     padding: 130px 0 0;
 }
 
+.hero-banner .sub-title {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /*Philosophy*/
 .culinary-philosophy {
     padding: 50px 10px;
