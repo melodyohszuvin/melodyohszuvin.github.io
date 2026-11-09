@@ -109,3 +109,29 @@
     max-width: 750px;
     line-height: 1.6;
 }
+
+/*discount*/
+.discount {
+    padding: 40px 0;
+}
+
+.discount h4 {
+    width: 200px;
+}
+
+/*discount footer*/
+.discount-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.discount-footer p {
+    margin-bottom: 20px;
+    font-family: var(--font-body);
+
+}
+
+.discount-footer .btn {
+    font-family: var(--font-body);
+    border: 1px solid var(--border-line);
+}
