@@ -112,14 +112,19 @@
 
 /*discount*/
 .discount {
-    padding: 40px 0;
+    padding: 90px;
 }
 
-.discount h4 {
-    width: 200px;
+.dessert-couples h4,
+.sparkling-wine h4 {
+    margin-left: 20px;
 }
 
-/*img sizd*/
+.set-menu h4 {
+    margin-right: 20px;
+}
+
+/*img size*/
 .dessert-couples img {
     width: 800px;
 }
@@ -132,6 +137,7 @@
     width: 500px;
 }
 
+/*img position*/
 .dessert-couples,
 .sparkling-wine {
     position: relative;
@@ -148,13 +154,13 @@
 }
 
 .set-menu {
-    margin-left: 28%;
-    margin-top: -60px;
+    margin-left: 38%;
+    margin-top: -220px;
 }
 
 .sparkling-wine {
-    margin-left: 22%;
-    margin-top: -60px;
+    margin-left: 30%;
+    margin-top: -110px;
 }
 
 .dessert-couples,
