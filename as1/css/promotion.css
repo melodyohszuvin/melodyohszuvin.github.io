@@ -313,4 +313,28 @@
         width: 100%;
         height: auto;
     }
+
+    /*discount*/
+    .dessert-couples,
+    .set-menu,
+    .sparkling-wine {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+
+    .dessert-couples img,
+    .set-menu img,
+    .sparkling-wine img {
+        width: 500px;
+    }
+
+    .discount h4 {
+        margin-top: 20px;
+    }
+
+    .set-menu img {
+        order: -1;
+    }
 }
