@@ -366,4 +366,37 @@
         font-size: 14px;
         gap: 12px;
     }
+
+    .classic {
+        background-image: url("../images/Classic-t.png");
+    }
+
+    .prestige {
+        background-image: url("../images/Prestige-t.png");
+    }
+
+    .elite {
+        background-image: url("../images/Elite-t.png");
+    }
+
+    .membership-price {
+        gap: 60px 55px;
+    }
+
+    .classic,
+    .prestige,
+    .elite {
+        width: 400px;
+        min-height: 455px;
+    }
+
+    .membership-price {
+        margin: 50px;
+    }
+
+    .membership-price .classic .classic-benefit span,
+    .membership-price .prestige .prestige-benefit span,
+    .membership-price .elite .elite-benefit span {
+        font-size: 19px;
+    }
 }
