@@ -206,3 +206,34 @@
     max-width: 850px;
     line-height: 1.6;
 }
+
+/*Membership Benefit*/
+.classic,
+.prestige,
+.elite {
+    color: var(--text-secondary);
+    min-height: 430px;
+    width: 350px;
+}
+
+.classic {
+    background-image: url("../images/Classic.jpg");
+}
+
+.prestige {
+    background-image: url("../images/Prestige.jpg");
+}
+
+.elite {
+    background-image: url("../images/Elite.jpg");
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.benefit img {
+    width: 17px;
+}
