@@ -94,4 +94,18 @@
     background-image: url("../images/food\ and\ drink.jpg");
     color: var(--text-secondary);
     min-height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dining-collection h1 {
+    margin-bottom: 20px;
+}
+
+.dining-collection p {
+    max-width: 750px;
+    line-height: 1.6;
 }
