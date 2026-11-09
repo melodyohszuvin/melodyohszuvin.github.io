@@ -221,6 +221,18 @@
     color: var(--text-secondary);
     min-height: 430px;
     width: 350px;
+    padding: 40px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.membership-price sub-title {
+    margin-bottom: 30px;
+}
+
+.membership-price h4 {
+    margin-bottom: 30px;
 }
 
 .classic {
@@ -243,4 +255,24 @@
 
 .benefit img {
     width: 17px;
+}
+
+.classic-benefit,
+.prestige-benefit,
+.elite-benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.classic .btn,
+.prestige .btn,
+.elite .btn {
+    margin-top: auto;
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--text-secondary);
+    width: 160px;
+    font-family: var(--font-body);
+    align-self: center;
 }
