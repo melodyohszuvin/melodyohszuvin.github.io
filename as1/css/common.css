@@ -115,7 +115,19 @@ a {
     color: inherit;
 }
 
-/* === Reusable Components  === */
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.line {
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-secondary);
+}
+
 /*defalt button setting*/
 .btn {
     padding: var(--btn-padding);

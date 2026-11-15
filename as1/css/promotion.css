@@ -38,6 +38,18 @@
     margin-bottom: 30px;
 }
 
+.line {
+    width: 25px;
+    background-color: var(--text-main);
+    position: relative;
+    bottom: 10px;
+}
+
+.line-container p {
+    margin: 0;
+    line-height: 1;
+}
+
 .btn {
     border-radius: 0;
     font-family: var(--font-body);
