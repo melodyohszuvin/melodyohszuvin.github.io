@@ -105,3 +105,21 @@ h2 {
     border-left: 1px solid var(--nav-text);
     border-right: 1px solid var(--nav-text);
 }
+
+.dish-card {
+    flex: 1;
+}
+
+.dish-card__add,
+.dish-card__view {
+    flex: 1;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish-card__view {
+    background-color: transparent;
+    color: var(--text-secondary);
+}
