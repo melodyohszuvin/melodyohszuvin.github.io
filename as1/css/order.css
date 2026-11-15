@@ -54,6 +54,10 @@ h2 {
     margin: 10px 0 30px;
 }
 
+.signatures .signatures__list .dish-card .sub-title {
+    font-family: var(--font-body);
+}
+
 .signatures__list {
     display: flex;
     gap: 25px;
