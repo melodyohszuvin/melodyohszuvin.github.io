@@ -280,4 +280,15 @@ h2 {
     .text-tablet {
         display: inline;
     }
+
+    /*favourite*/
+    .choose-favourite {
+        padding: 120px 90px;
+        justify-content: flex-start;
+        gap: 100px;
+    }
+
+    .signatures {
+        padding: 60px 40px;
+    }
 }
