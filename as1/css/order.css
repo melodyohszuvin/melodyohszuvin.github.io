@@ -360,7 +360,34 @@ h2 {
     }
 
     .pork .qty,
-    .pork__btn {
+    .pork__btn,
+    .chef-food .qty__btn {
         flex: 1;
+    }
+
+    .chef-food .qty__num {
+        flex: 2;
+    }
+
+    .chef {
+        padding: 60px 50px;
+    }
+
+    .chef-list {
+        flex-wrap: wrap;
+        gap: 50px 15px;
+    }
+
+    .chef-food {
+        flex: none;
+        width: calc(50% - 8px);
+    }
+
+    .chef-food h4 {
+        font-size: 31px;
+    }
+
+    .cfood-info p {
+        font-size: 19px;
     }
 }
