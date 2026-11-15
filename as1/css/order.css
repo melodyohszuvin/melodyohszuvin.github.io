@@ -123,3 +123,12 @@ h2 {
     background-color: transparent;
     color: var(--text-secondary);
 }
+
+.dish-card__info>span {
+    color: var(--nav-hover);
+}
+
+.dish-card__price {
+    display: block;
+    margin: 10px 0 20px;
+}
