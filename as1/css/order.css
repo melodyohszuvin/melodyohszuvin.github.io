@@ -245,3 +245,24 @@ h2 {
     background-color: transparent;
     border: 1px solid var(--nav-text);
 }
+
+/*CheckOut*/
+.check-out {
+    font-family: var(--font-body);
+    text-align: center;
+    padding: 120px 0;
+}
+
+.check-out .sub-title {
+    font-family: inherit;
+}
+
+.check-out p {
+    margin: 20px 0 30px;
+}
+
+.check-out .btn-gold:hover {
+    background-color: transparent;
+    color: var(--nav-hover);
+    border: 1px solid var(--nav-hover);
+}
