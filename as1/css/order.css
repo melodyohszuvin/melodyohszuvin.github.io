@@ -50,6 +50,10 @@ h2 {
     padding: 60px 200px;
 }
 
+.signatures>h4 {
+    margin: 10px 0 30px;
+}
+
 .signatures__list {
     display: flex;
     gap: 25px;
@@ -77,4 +81,27 @@ h2 {
 .dish-card__add {
     flex: 1;
     text-align: center;
+}
+
+/*Quantity*/
+.qty {
+    display: flex;
+    border: 1px solid var(--nav-text);
+}
+
+.qty__btn,
+.qty__num {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+}
+
+.qty__num {
+    border-left: 1px solid var(--nav-text);
+    border-right: 1px solid var(--nav-text);
 }
