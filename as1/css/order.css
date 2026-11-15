@@ -1,4 +1,8 @@
 /*hero*/
+.menu-bar {
+    text-align: left;
+}
+
 .hero {
     background-image: url("../images/order-bg.png");
     text-align: center;
@@ -21,4 +25,20 @@ sub-title {
 
 h2 {
     color: var(--text-secondary);
+}
+
+/*choose favourite*/
+.choose-favourite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 200px;
+}
+
+.favourite-text {
+    max-width: 400px;
+}
+
+.favourite-text h4 {
+    margin: 10px 0 20px;
 }
