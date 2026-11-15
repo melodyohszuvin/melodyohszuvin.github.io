@@ -136,3 +136,40 @@ h2 {
     display: block;
     margin: 10px 0 20px;
 }
+
+.pork {
+    display: flex;
+    margin: 80px 100px;
+    background-color: var(--text-main);
+    color: var(--text-secondary);
+}
+
+.pork img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.pork-info {
+    width: 50%;
+    padding: 60px 110px;
+}
+
+.pork-info p {
+    max-width: 290px;
+    margin: 40px 0 30px;
+}
+
+.pork-action {
+    display: flex;
+    gap: 48px;
+}
+
+.pork__btn {
+    width: 171px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-secondary);
+    color: var(--text-main);
+}
