@@ -391,3 +391,22 @@ h2 {
         font-size: 19px;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .hero {
+        background-image: none;
+        background-color: var(--text-main);
+        height: 430px;
+    }
+
+    .hero-banner {
+        background-image: url("../images/order-bg.png");
+        background-size: cover;
+        max-width: 100%;
+        padding: 0;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
