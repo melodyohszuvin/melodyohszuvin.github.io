@@ -429,4 +429,45 @@ h2 {
     .favourite-text sub-title {
         letter-spacing: 0;
     }
+
+    .signatures {
+        padding: 40px 40px;
+    }
+
+    .signatures__list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .dish-card__img {
+        height: 550px;
+    }
+
+    .dish-card__actions {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .qty__btn {
+        width: 26px;
+        height: 32px;
+    }
+
+    .qty__num {
+        width: 30px;
+        height: 32px;
+    }
+
+    .dish-card__add,
+    .dish-card__view {
+        height: 32px;
+    }
+
+    .dish-card__actions .qty,
+    .dish-card__add,
+    .dish-card__view,
+    .qty__btn,
+    .qty__num {
+        flex: 1;
+    }
 }
