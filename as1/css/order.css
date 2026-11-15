@@ -470,4 +470,24 @@ h2 {
     .qty__num {
         flex: 1;
     }
+
+    /*pork*/
+    .pork {
+        flex-direction: column;
+        margin: 30px 28px;
+    }
+
+    .pork img {
+        height: 490px;
+    }
+
+    .pork .qty__btn,
+    .pork .qty__num {
+        width: 37px;
+        height: 100%;
+    }
+
+    .pork__btn {
+        height: 38px;
+    }
 }
