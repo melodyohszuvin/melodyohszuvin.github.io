@@ -158,6 +158,10 @@ h2 {
     padding: 60px 110px;
 }
 
+.pork .pork-info .sub-title {
+    font-family: var(--font-body);
+}
+
 .pork-info p {
     max-width: 390px;
     margin: 40px 0 30px;
