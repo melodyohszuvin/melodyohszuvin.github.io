@@ -396,7 +396,8 @@ h2 {
     .hero {
         background-image: none;
         background-color: var(--text-main);
-        height: 430px;
+        height: auto;
+        min-height: 0;
     }
 
     .hero-banner {
@@ -408,5 +409,24 @@ h2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .choose-favourite {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 120px 30px 130px;
+    }
+
+    .favourite-text {
+        max-width: 100%;
+    }
+
+    .favourite-text p {
+        max-width: 350px;
+    }
+
+    .favourite-text sub-title {
+        letter-spacing: 0;
     }
 }
