@@ -490,4 +490,13 @@ h2 {
     .pork__btn {
         height: 38px;
     }
+
+    /*Chef*/
+    .chef-food {
+        width: 100%;
+    }
+
+    .chef-food img {
+        height: 400px;
+    }
 }
