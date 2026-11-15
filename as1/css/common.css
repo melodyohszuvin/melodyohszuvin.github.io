@@ -131,10 +131,10 @@ a {
 /*defalt button setting*/
 .btn {
     padding: var(--btn-padding);
+    font-family: var(--font-body);
     background-color: var(--btn-bg);
     color: var(--btn-text);
     border: 1px solid var(--text-secondary);
-    border-radius: var(--radius);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 12px;
