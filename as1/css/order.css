@@ -1,3 +1,7 @@
+.text-tablet {
+    display: none;
+}
+
 /*hero*/
 .menu-bar {
     text-align: left;
@@ -19,8 +23,9 @@
     padding: 300px 0 0;
 }
 
-sub-title {
+.sub-title {
     font-size: 17px;
+    font-family: var(--font-body);
 }
 
 h2 {
@@ -265,4 +270,14 @@ h2 {
     background-color: transparent;
     color: var(--nav-hover);
     border: 1px solid var(--nav-hover);
+}
+
+@media screen and (max-width: 1024px) {
+    .text-desktop {
+        display: none;
+    }
+
+    .text-tablet {
+        display: inline;
+    }
 }
