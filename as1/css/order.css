@@ -181,3 +181,63 @@ h2 {
     background-color: var(--text-secondary);
     color: var(--text-main);
 }
+
+/*Chef*/
+.chef {
+    background-color: var(--text-main);
+    color: var(--text-secondary);
+    padding: 60px 200px;
+}
+
+.chef>h4 {
+    margin: 10px 0 30px;
+}
+
+.chef-list {
+    display: flex;
+    gap: 15px;
+}
+
+.chef-food {
+    flex: 1;
+    background-color: var(--nav-bg);
+}
+
+.chef-food img {
+    width: 100%;
+}
+
+.cfood-info {
+    padding: 30px 22px;
+}
+
+.cfood-info p {
+    margin: 15px 0 10px;
+    font-size: 15px;
+}
+
+.chef-food__price {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.chef-food .qty {
+    margin-bottom: 10px;
+}
+
+.chef-food .qty__num {
+    flex: 1;
+    width: auto;
+}
+
+.cfood-info>.btn {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.chef-food__view {
+    background-color: transparent;
+    border: 1px solid var(--nav-text);
+}
