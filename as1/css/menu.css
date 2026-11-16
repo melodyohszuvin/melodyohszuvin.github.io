@@ -74,3 +74,12 @@
     height: 100%;
     object-fit: cover;
 }
+
+.dessert {
+    background-image: url("../images/dessert-bg.png");
+    color: var(--text-secondary);
+    min-height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
