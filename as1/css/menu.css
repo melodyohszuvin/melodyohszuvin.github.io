@@ -75,6 +75,7 @@
     object-fit: cover;
 }
 
+/*dessert*/
 .dessert {
     background-image: url("../images/dessert-bg.png");
     color: var(--text-secondary);
@@ -82,4 +83,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dessert-menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.dessert-item {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dessert-item:nth-child(even) {
+    flex-direction: column-reverse;
 }
