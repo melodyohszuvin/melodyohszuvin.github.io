@@ -45,16 +45,13 @@
 }
 
 /*main-course*/
-.main-img {
-    min-height: 1000px;
-}
-
 .main-course {
     display: flex;
 }
 
 .menu {
-    padding: 80px;
+    flex: 1;
+    padding: 40px 80px;
 }
 
 .main-menu {
@@ -66,4 +63,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-menu p {
+    max-width: 480px;
+}
+
+.main-img img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
 }
