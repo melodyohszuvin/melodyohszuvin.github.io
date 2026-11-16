@@ -43,3 +43,14 @@
     height: 30%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
 }
+
+/*main-course*/
+.main-menu {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-line);
+}
+
+.main-menu-header {
+    display: flex;
+    justify-content: space-between;
+}
