@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding: 40px;
+    padding: 50px 0 130px;
 }
 
 .dessert-item {
@@ -100,4 +100,18 @@
 
 .dessert-item:nth-child(even) {
     flex-direction: column-reverse;
+}
+
+/*img for the position down*/
+.dessert-item:nth-child(2),
+.dessert-item:nth-child(4) {
+    flex-direction: column-reverse;
+    position: relative;
+    top: 80px;
+}
+
+.dessert-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
