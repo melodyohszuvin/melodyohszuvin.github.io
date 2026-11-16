@@ -29,7 +29,7 @@
 }
 
 .culinary-philosophy h1 {
-    color: #000;
+    color: var(--text-main);
     margin-bottom: 40px;
 }
 
