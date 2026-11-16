@@ -10,3 +10,22 @@
     text-align: center;
     padding: 80px 0;
 }
+
+.recommend-food {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    padding: 50px;
+    gap: 25px;
+}
+
+.butter-lobster {
+    position: relative;
+}
+
+.butter-lobster h4 {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    color: var(--text-secondary);
+}
