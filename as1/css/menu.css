@@ -115,3 +115,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/*Croctails*/
+.croctails {
+    background-image: url("../images/croctails-bg.png");
+    color: var(--text-secondary);
+    min-height: 850px;
+}
