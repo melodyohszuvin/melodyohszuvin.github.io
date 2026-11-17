@@ -72,13 +72,6 @@ h5 {
     line-height: 55.2px;
 }
 
-menu-title {
-    font-family: var(--font-serif);
-    font-style: var(--style-italic);
-    font-size: 40px;
-    line-height: 48px;
-}
-
 p {
     font-family: var(--font-serif);
     font-size: 19px;
@@ -140,29 +133,12 @@ a {
     font-size: 12px;
 }
 
-/* btn-black: 背景变黑 */
-.btn-black:hover {
-    background-color: var(--text-main);
-}
-
-/* btn-white: 白底黑字 */
-.btn-white:hover {
-    background-color: var(--text-secondary);
-    color: var(--text-main);
-}
-
-/*默认灰框，悬停变黑框 */
 .btn-outline {
     background-color: var(--text-secondary);
     color: var(--text-main);
     border: 1px solid var(--border-line);
 }
 
-.btn-outline:hover {
-    border: 1px solid var(--text-main);
-}
-
-/*金底，悬停变透明 + 细线 */
 .btn-gold {
     background-color: var(--nav-hover);
     color: var(--text-secondary);
@@ -178,8 +154,6 @@ a {
     border-right: none;
 }
 
-/* === Sitewide Elements  === */
-/*Header Setting*/
 /*Hero*/
 .hero {
     min-height: 730px;
