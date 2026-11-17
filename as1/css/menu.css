@@ -121,4 +121,15 @@
     background-image: url("../images/croctails-bg.png");
     color: var(--text-secondary);
     min-height: 850px;
+    padding-left: 90px;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.croctails p {
+    max-width: 500px;
+}
+
+.croctails .hero-banner {
+    text-align: left;
 }
