@@ -241,4 +241,15 @@
     .dessert {
         background-image: url("../images/mdessert-m.png");
     }
+
+    /*dessert*/
+    .dessert-item,
+    .dessert-item:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .dessert-menu {
+        padding: 80px 42px;
+        gap: 40px;
+    }
 }
