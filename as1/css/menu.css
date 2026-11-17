@@ -1,4 +1,8 @@
 /*hero*/
+.header {
+    background-color: var(--text-main);
+}
+
 .hero {
     background-image: url("../images/menu-bg.png");
     background-size: cover;
@@ -132,4 +136,31 @@
 
 .croctails .hero-banner {
     text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        background-image: url("../images/menu-bg-t.png");
+    }
+
+    .recommend-food {
+        flex-direction: column;
+        align-items: center;
+        padding: 90px 0px;
+        gap: 60px;
+    }
+
+    .butter-lobster {
+        width: 100%;
+        max-width: 830px;
+    }
+
+    .butter-lobster img {
+        width: 100%;
+        display: block;
+    }
+
+    .butter-lobster h4 {
+        font-size: 30px;
+    }
 }
