@@ -278,8 +278,16 @@ a {
 }
 
 .submenu>a::after {
-    content: "⇂";
-    margin-left: 2px;
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+    background-image: url("../images/down.png");
+    background-size: contain;
+    filter: brightness(0) invert(1);
+    position: relative;
+    top: 3px;
 }
 
 /*Footer Setting*/
