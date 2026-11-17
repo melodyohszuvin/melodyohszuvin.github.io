@@ -213,4 +213,20 @@
     .dessert-info h4 {
         font-size: 30px;
     }
+
+    .croctails p {
+        max-width: 380px;
+    }
+
+    .croctails .btn {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .butter-lobster h4 {
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
 }
