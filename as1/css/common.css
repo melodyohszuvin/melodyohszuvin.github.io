@@ -421,7 +421,7 @@ a {
 
     /*hide menu*/
     .hero .header .menu-bar {
-        display: block;
+        display: flex;
     }
 
     .hero .header .bar {
@@ -430,6 +430,8 @@ a {
     }
 
     .header .menu-bar {
+        display: flex;
+        flex-direction: column;
         height: 100vh;
         width: 100%;
         opacity: 0;
@@ -441,6 +443,8 @@ a {
         right: -100%;
         transition: all 0.3s ease;
         z-index: 1;
+        gap: 50px;
+        padding: 0;
     }
 
     .header .menu-bar.active {
