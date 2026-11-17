@@ -252,4 +252,21 @@
         padding: 80px 42px;
         gap: 40px;
     }
+
+    /*croctails*/
+    .croctails {
+        background-size: cover;
+        background-position: center;
+        min-height: 580px;
+        padding-left: 40px;
+        padding-top: 0px;
+    }
+
+    .croctails p {
+        max-width: 290px;
+    }
+
+    .croctails .btn {
+        margin-top: 30px;
+    }
 }
