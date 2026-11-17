@@ -229,4 +229,16 @@
         right: 0;
         text-align: center;
     }
+
+    .recommend-food {
+        padding: 90px 0 0;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .dessert {
+        background-image: url("../images/mdessert-m.png");
+    }
 }
