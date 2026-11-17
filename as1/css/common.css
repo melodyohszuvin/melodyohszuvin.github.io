@@ -247,7 +247,7 @@ a {
 }
 
 .hero .header .bar {
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     color: var(--text-secondary);
 }
@@ -454,7 +454,16 @@ a {
     }
 
     .header .menu-bar a {
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .header .menu-bar img {
+        width: 25px;
+    }
+
+    /*sub-menu*/
+    .header .menu-bar .submenu-text a {
+        font-size: 18px;
     }
 
     /*Hero-Title*/
