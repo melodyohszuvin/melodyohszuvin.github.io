@@ -241,6 +241,17 @@ a {
     display: none;
 }
 
+/*编码三条杠*/
+.hero .header {
+    position: relative;
+}
+
+.hero .header .bar {
+    font-size: 40px;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
 /*submenu*/
 .menu-bar {
     display: flex;
@@ -407,6 +418,40 @@ a {
 }
 
 @media screen and (max-width: 640px) {
+
+    /*hide menu*/
+    .hero .header .menu-bar {
+        display: block;
+    }
+
+    .hero .header .bar {
+        position: relative;
+        z-index: 2;
+    }
+
+    .header .menu-bar {
+        height: 100vh;
+        width: 100%;
+        opacity: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--text-main);
+        position: fixed;
+        top: 0;
+        right: -100%;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+
+    .header .menu-bar.active {
+        opacity: 1;
+        right: 0;
+        pointer-events: auto;
+    }
+
+    .header .menu-bar a {
+        font-size: 28px;
+    }
 
     /*Hero-Title*/
     h1 {

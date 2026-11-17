@@ -223,6 +223,7 @@
 
     .croctails p {
         max-width: 380px;
+        font-size: 15px;
     }
 
     .croctails .btn {
