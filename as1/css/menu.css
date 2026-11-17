@@ -77,6 +77,11 @@
     align-items: center;
 }
 
+.dessert-info .price,
+.main-menu-header .price {
+    font-family: var(--font-body)
+}
+
 .main-menu p {
     max-width: 480px;
 }
