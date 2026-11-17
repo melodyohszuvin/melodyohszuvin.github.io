@@ -25,6 +25,14 @@
     gap: 25px;
 }
 
+.img-desktop {
+    display: block;
+}
+
+.img-tablet {
+    display: none;
+}
+
 .butter-lobster {
     position: relative;
 }
@@ -150,6 +158,14 @@
         gap: 60px;
     }
 
+    .img-desktop {
+        display: none;
+    }
+
+    .img-tablet {
+        display: block;
+    }
+
     .butter-lobster {
         width: 100%;
         max-width: 830px;
@@ -157,7 +173,6 @@
 
     .butter-lobster img {
         width: 100%;
-        display: block;
     }
 
     .butter-lobster h4 {
